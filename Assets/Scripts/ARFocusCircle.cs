@@ -142,7 +142,7 @@ public class ARFocusCircle : MonoBehaviour
         //PlaneEstimated
         //Debug.Log(" >>> Position of the Camera is: " + placementPose.position.ToString() + " <<< ");
         //Debug.Log(" >>> Position of the Camera is: " + placementPose.rotation.ToString() + " <<< ");
-        //Debug.Log(" >>>>>>>>>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
+        Debug.Log(" >>>>>>>>>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
 
         placementPoseIsValid = hits.Count > 0;
         if (placementPoseIsValid)
@@ -158,7 +158,7 @@ public class ARFocusCircle : MonoBehaviour
             {
                 plane.gameObject.SetActive(false);
             }
-            //Debug.Log(" >>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
+            Debug.Log(" >>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
             //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.position.ToString() + " <<< ");
             //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.rotation.ToString() + " <<< ");
         }
