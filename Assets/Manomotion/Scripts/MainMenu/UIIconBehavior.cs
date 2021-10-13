@@ -29,7 +29,7 @@ namespace ManoMotion.UI.Buttons
 			LicenseInfo,
 			Smoothing,
 			Instructions,
-			TheRoom,
+			MoreItems,
 			Planet
 		}
 		public IconFunctionality myIconFunctionality;
