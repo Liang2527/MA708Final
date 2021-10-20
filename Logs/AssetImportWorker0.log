@@ -1,0 +1,423 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 65411 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Unity 3D Engine\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/GitHub/MA708Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7367
+Successfully changed project path to: F:/GitHub/MA708Final
+F:/GitHub/MA708Final
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path G:/Unity 3D Engine/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/MA708Final/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity 3D Engine/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003490 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2074ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (356ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+PlayerSettings.applicationIdentifier only changes the identifier for the currently active platform. Please use SetApplicationIdentifier to set it for any platform
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettings:set_applicationIdentifier (string)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 16)
+
+Setting bundle id to com.manomotion.arfoundationssdkceexample from ManoMotionSetup script
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 17)
+
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1096ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 3.124100 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.672200 ms  DeleteObjects: 0.102600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ARFocusCircle.cs
+  artifactKey: Guid(87ce074bc1ffad84ba30829e82100c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARFocusCircle.cs using Guid(87ce074bc1ffad84ba30829e82100c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812a834b626c9bac193a408fda3a6248') in 0.043055 seconds 
+  Import took 0.046466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (775ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2712.
+Total: 3.244700 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.851700 ms  DeleteObjects: 0.098600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 488.361991 seconds.
+  path: Assets/AR_Occlusion_assets/soccer_ball.fbx
+  artifactKey: Guid(cc9ec629c4a7fee4a85af6d08ad9fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/soccer_ball.fbx using Guid(cc9ec629c4a7fee4a85af6d08ad9fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e279a3d7697a46af7cf43635d51492f') in 0.209070 seconds 
+  Import took 0.212331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AR_Occlusion_assets/PlanePatternDot.png
+  artifactKey: Guid(b0851a4ee55be554e869a08bb8911134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlanePatternDot.png using Guid(b0851a4ee55be554e869a08bb8911134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3506cce11aabe9ee79fa08aa8e11e3') in 0.045292 seconds 
+  Import took 0.048656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AR_Occlusion_assets
+  artifactKey: Guid(5a3bde135cfcca9499bf2bdfff6c598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets using Guid(5a3bde135cfcca9499bf2bdfff6c598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c6c6f90c528f23a0134ad9ce648b4') in 0.004493 seconds 
+  Import took 0.007723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AR_Occlusion_assets/button.png
+  artifactKey: Guid(8d4f4ddbdabb3824cb04454aa672dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/button.png using Guid(8d4f4ddbdabb3824cb04454aa672dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3f6be1a72182a997896d5705c5f3de') in 0.011183 seconds 
+  Import took 0.014230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AR_Occlusion_assets/Soccer_ball_texture.png
+  artifactKey: Guid(712ed94cd4757f345aabb3580dd698f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/Soccer_ball_texture.png using Guid(712ed94cd4757f345aabb3580dd698f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf3e7781a14ffc499274341b1b57ba') in 0.075948 seconds 
+  Import took 0.079200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.227401 seconds.
+  path: Assets/AR_Occlusion_assets/AR Feathered Plane Fade.controller
+  artifactKey: Guid(4a5528c87ad1c0546ad950e1755de6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/AR Feathered Plane Fade.controller using Guid(4a5528c87ad1c0546ad950e1755de6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2544f449bf5bcf6ea1852f06aafdb2') in 0.009445 seconds 
+  Import took 0.012889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.739827 seconds.
+  path: Assets/AR_Occlusion_assets/ARFeatheredPlaneMeshVisualizer.cs
+  artifactKey: Guid(677089b13a306f54eb248b30fc0f88b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/ARFeatheredPlaneMeshVisualizer.cs using Guid(677089b13a306f54eb248b30fc0f88b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fd32fe4130ae86bdc54e55aed2981a') in 0.004691 seconds 
+  Import took 0.007950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001661 seconds.
+  path: Assets/AR_Occlusion_assets/ARFeatheredPlaneMeshVisualizer.cs
+  artifactKey: Guid(677089b13a306f54eb248b30fc0f88b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/ARFeatheredPlaneMeshVisualizer.cs using Guid(677089b13a306f54eb248b30fc0f88b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fd32fe4130ae86bdc54e55aed2981a') in 0.003817 seconds 
+  Import took 0.006977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.163711 seconds.
+  path: Assets/AR_Occlusion_assets/FadePlaneOnBoundaryChange.cs
+  artifactKey: Guid(8bd355a30eaa192488c68ef09b653419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/FadePlaneOnBoundaryChange.cs using Guid(8bd355a30eaa192488c68ef09b653419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518056418ecc967ef2f6f5a975f9eb6e') in 0.004945 seconds 
+  Import took 0.008267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.680201 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneOcclusionShader.shader
+  artifactKey: Guid(d3fe1a26313ca4c419cd05fa8f72dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneOcclusionShader.shader using Guid(d3fe1a26313ca4c419cd05fa8f72dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6188baa4bf0b995ec2e4bcef774430f4') in 0.007961 seconds 
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076351 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneOcclusionShader.shader
+  artifactKey: Guid(d3fe1a26313ca4c419cd05fa8f72dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneOcclusionShader.shader using Guid(d3fe1a26313ca4c419cd05fa8f72dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6188baa4bf0b995ec2e4bcef774430f4') in 0.004785 seconds 
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594994 seconds.
+  path: Assets/AR_Occlusion_assets/FeatheredPlaneShader.shader
+  artifactKey: Guid(ebc455f0e66683b408a473ae63132529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/FeatheredPlaneShader.shader using Guid(ebc455f0e66683b408a473ae63132529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0591e8c975173e8f5ebc28ea067d5a') in 0.005123 seconds 
+  Import took 0.008187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.238018 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneOcclusion.mat
+  artifactKey: Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneOcclusion.mat using Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe5bcfc8dbe3a38b6e7f80b76802779') in 0.019797 seconds 
+  Import took 0.022841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.255533 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneOcclusionMat.mat
+  artifactKey: Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneOcclusionMat.mat using Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d189e2e47ea9c87166698f2bdcacd1') in 0.011132 seconds 
+  Import took 0.014419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.354164 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneMat.mat
+  artifactKey: Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneMat.mat using Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c0bdeb29d51d3737552dd4a73da13') in 0.011006 seconds 
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.990810 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneMat.mat
+  artifactKey: Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneMat.mat using Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29e7befe8739a69a046b90d1d90de67') in 0.012869 seconds 
+  Import took 0.016174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneOcclusionMat.mat
+  artifactKey: Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneOcclusionMat.mat using Guid(06b09df92842f31478e25a7c7d3085c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2132e2876aff2a86be220dc9dcf4fa') in 0.011532 seconds 
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 545.353405 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneMat.mat
+  artifactKey: Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneMat.mat using Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1957bbff9d4b075c7e681904ceb66fb2') in 0.012779 seconds 
+  Import took 0.016252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.760334 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneMat.mat
+  artifactKey: Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneMat.mat using Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b367bec8adb239a4ae19f5dcbcf619c') in 0.016137 seconds 
+  Import took 0.019475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.548405 seconds.
+  path: Assets/AR_Occlusion_assets/PlaneMat.mat
+  artifactKey: Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR_Occlusion_assets/PlaneMat.mat using Guid(d22a6567c526bdc46b4f15ec556514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd57e664641b5250fed79364dd48cd02') in 0.016640 seconds 
+  Import took 0.020012 seconds .
+
