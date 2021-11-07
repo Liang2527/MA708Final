@@ -154,13 +154,13 @@ public class ARFocusCircle : MonoBehaviour
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             placementPose.rotation = Quaternion.LookRotation(cameraBearing);
 
-            foreach (var plane in arOrigin.GetComponent<ARPlaneManager>().trackables)
-            {
-                if (isUIHidden == true)
-                    plane.gameObject.SetActive(true);
-                if (isUIHidden == false)
-                    plane.gameObject.SetActive(false);
-            }
+            //foreach (var plane in arOrigin.GetComponent<ARPlaneManager>().trackables)
+            //{
+            //    if (isUIHidden == true)
+            //        plane.gameObject.SetActive(true);
+            //    if (isUIHidden == false)
+            //        plane.gameObject.SetActive(false);
+            //}
             //Debug.Log(" >>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
             //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.position.ToString() + " <<< ");
             //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.rotation.ToString() + " <<< ");
