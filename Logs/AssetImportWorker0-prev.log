@@ -1,0 +1,1783 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 65411 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Unity 3D Engine\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/GitHub/MA708Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14606
+Successfully changed project path to: F:/GitHub/MA708Final
+F:/GitHub/MA708Final
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.13 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path G:/Unity 3D Engine/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/MA708Final/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity 3D Engine/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity 3D Engine/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002883 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.77 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1908ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+PlayerSettings.applicationIdentifier only changes the identifier for the currently active platform. Please use SetApplicationIdentifier to set it for any platform
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettings:set_applicationIdentifier (string)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 16)
+
+Setting bundle id to com.manomotion.arfoundationssdkceexample from ManoMotionSetup script
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 17)
+
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 2.836900 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.395800 ms  DeleteObjects: 0.096800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3DForge
+  artifactKey: Guid(3a9ce9d3eda301e4ba977bd9b3439dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge using Guid(3a9ce9d3eda301e4ba977bd9b3439dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca0a5ad053788c5188b432cc9a0d22f') in 0.028257 seconds 
+  Import took 0.032927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585643 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit
+  artifactKey: Guid(5f5ea09dcdb161b42928e345a6572871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit using Guid(5f5ea09dcdb161b42928e345a6572871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcc7cd5ee4efa32ca43c97399c28817') in 0.003470 seconds 
+  Import took 0.007168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit
+  artifactKey: Guid(5f5ea09dcdb161b42928e345a6572871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit using Guid(5f5ea09dcdb161b42928e345a6572871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcc7cd5ee4efa32ca43c97399c28817') in 0.002965 seconds 
+  Import took 0.006874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.823556 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Scenes
+  artifactKey: Guid(31fe1009ff89f2d488a5b0b29f49cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Scenes using Guid(31fe1009ff89f2d488a5b0b29f49cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c9835b321622819c2b4078cf99087') in 0.003826 seconds 
+  Import took 0.008143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.578768 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Scenes/Chest Scene.unity
+  artifactKey: Guid(ac6b0d111e5ae9b4886b5fb41d65964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Scenes/Chest Scene.unity using Guid(ac6b0d111e5ae9b4886b5fb41d65964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd886110afb9f873f5356d92496ba3323') in 0.010402 seconds 
+  Import took 0.014393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.175262 seconds.
+  path: Assets/ManoMotion ARFoundation/Examples
+  artifactKey: Guid(6b2dc86297e778149b6310107e28ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManoMotion ARFoundation/Examples using Guid(6b2dc86297e778149b6310107e28ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959e2134290cb4576e5c04720cd6ea9d') in 0.004148 seconds 
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.719236 seconds.
+  path: Assets/ManoMotion ARFoundation/Examples/Inetraction
+  artifactKey: Guid(df966ee2601fd9b498614030e9ad2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManoMotion ARFoundation/Examples/Inetraction using Guid(df966ee2601fd9b498614030e9ad2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44df8ed4ddfc22dd8cf5225fde0cf22') in 0.003521 seconds 
+  Import took 0.007066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ManoMotion ARFoundation/Examples/Inetraction
+  artifactKey: Guid(df966ee2601fd9b498614030e9ad2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManoMotion ARFoundation/Examples/Inetraction using Guid(df966ee2601fd9b498614030e9ad2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44df8ed4ddfc22dd8cf5225fde0cf22') in 0.003074 seconds 
+  Import took 0.006558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.240671 seconds.
+  path: Assets/ManoMotion ARFoundation/Scenes/ManoMotion SDK CE ARFoundation Features.unity
+  artifactKey: Guid(2e8ecbb9ea2e340009ac8d7dd6fbd854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManoMotion ARFoundation/Scenes/ManoMotion SDK CE ARFoundation Features.unity using Guid(2e8ecbb9ea2e340009ac8d7dd6fbd854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992d2210f8d3fe1b1b1415129ea07122') in 0.012047 seconds 
+  Import took 0.015834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.369707 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Documents
+  artifactKey: Guid(19c44dd91ab07d549aa6cdd626c0dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Documents using Guid(19c44dd91ab07d549aa6cdd626c0dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fe597b439a23df04947ca37d0d2970') in 0.003819 seconds 
+  Import took 0.007609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.214252 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Documents/Baked Lighting quick & easy.pdf
+  artifactKey: Guid(e74bd842a548b014c899636bcac2380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Documents/Baked Lighting quick & easy.pdf using Guid(e74bd842a548b014c899636bcac2380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c5511ce021cb668ef2953aaaf7e21d') in 0.038936 seconds 
+  Import took 0.043256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246326 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Documents/3DForge Products.pdf
+  artifactKey: Guid(0972d3e15313dfd429ce6a61f060baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Documents/3DForge Products.pdf using Guid(0972d3e15313dfd429ce6a61f060baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e9d87969f895a5588c7aa310808438') in 0.005049 seconds 
+  Import took 0.009705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.843009 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Documents/Fantasy Treasure Loot Kit user guide.txt
+  artifactKey: Guid(b7bfbac6114f36d4d888dea86ad7d35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Documents/Fantasy Treasure Loot Kit user guide.txt using Guid(b7bfbac6114f36d4d888dea86ad7d35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b81fd6a715eb34f1e9cd662327d0e') in 0.015322 seconds 
+  Import took 0.019698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.947766 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs
+  artifactKey: Guid(0f924227580ee344486b912bed619582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs using Guid(0f924227580ee344486b912bed619582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6cdd12ff8e02a9cef9f2defa7df699') in 0.003892 seconds 
+  Import took 0.007654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.012111 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books
+  artifactKey: Guid(72f07480a64db1f4bbe811850ef514f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books using Guid(72f07480a64db1f4bbe811850ef514f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc837f30bf1e9d7acdc3c6df7a76f7') in 0.004066 seconds 
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068825 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book1a.prefab
+  artifactKey: Guid(e4a018da09c5d834481b7cd705ad32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book1a.prefab using Guid(e4a018da09c5d834481b7cd705ad32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a20775730edab03b17ef269ba02f2f9') in 0.127492 seconds 
+  Import took 0.131503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_yellow.prefab
+  artifactKey: Guid(a70f3cc541d9b764f989686936bfebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_yellow.prefab using Guid(a70f3cc541d9b764f989686936bfebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130ab50956051626b948d679260d88bc') in 0.041058 seconds 
+  Import took 0.044552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_black.prefab
+  artifactKey: Guid(1c21e9005cdd99d46b0cb030dbaf1f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_black.prefab using Guid(1c21e9005cdd99d46b0cb030dbaf1f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab59b5683150a3ba766955a11a599a97') in 0.014025 seconds 
+  Import took 0.017981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book2.prefab
+  artifactKey: Guid(2ceddf9f40fdd604c8578eb945c24861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book2.prefab using Guid(2ceddf9f40fdd604c8578eb945c24861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5b2553299fb564398a044b4864ca9') in 0.054534 seconds 
+  Import took 0.058064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_yellow.prefab
+  artifactKey: Guid(a004d9cade264cf4b9fb79407339101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_yellow.prefab using Guid(a004d9cade264cf4b9fb79407339101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3ca9d27af3441399758cfab33df2fe') in 0.015998 seconds 
+  Import took 0.019515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_green.prefab
+  artifactKey: Guid(681b467cd79862d4090f75bb541a0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_green.prefab using Guid(681b467cd79862d4090f75bb541a0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5004b8d4a43c4174d332af859ceac03') in 0.014251 seconds 
+  Import took 0.018083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book_open.prefab
+  artifactKey: Guid(23d1785f8d866344ba025b8075a36da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book_open.prefab using Guid(23d1785f8d866344ba025b8075a36da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b89a0c230eaabcf694d1f666620825') in 0.013204 seconds 
+  Import took 0.017117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2.prefab
+  artifactKey: Guid(331455c5116007d4f87425df0df281d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2.prefab using Guid(331455c5116007d4f87425df0df281d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78caa1ec3bbf6b56057a69749dbc8c7') in 0.014793 seconds 
+  Import took 0.018448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book_open_clean.prefab
+  artifactKey: Guid(fd2fa9b7275a4fb4d87d7719cc9bc39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book_open_clean.prefab using Guid(fd2fa9b7275a4fb4d87d7719cc9bc39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8668194632371b835566d5069990284b') in 0.013254 seconds 
+  Import took 0.016698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll_open.prefab
+  artifactKey: Guid(2cc492bda67823048b98f02b142cc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll_open.prefab using Guid(2cc492bda67823048b98f02b142cc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbafa92aa859526f5cfe99fef520c6a') in 0.012915 seconds 
+  Import took 0.016303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_purple.prefab
+  artifactKey: Guid(d04b26dd52afa5f49bc5a3361732d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_purple.prefab using Guid(d04b26dd52afa5f49bc5a3361732d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93803cb960be3114b05e4c454ec3fde') in 0.014370 seconds 
+  Import took 0.017877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book3.prefab
+  artifactKey: Guid(86408779f13fa27448765fd73921f825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book3.prefab using Guid(86408779f13fa27448765fd73921f825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a407a9f59e132d1ddaab740298b0b81f') in 0.013435 seconds 
+  Import took 0.016820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map_clean.prefab
+  artifactKey: Guid(29f8bd38d44d59e47a80fd0242e7e953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map_clean.prefab using Guid(29f8bd38d44d59e47a80fd0242e7e953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0f1733a3df3adad42f28edc772314f') in 0.012617 seconds 
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map3.prefab
+  artifactKey: Guid(cdbecb9bc2021824a9f27aaf1a105dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map3.prefab using Guid(cdbecb9bc2021824a9f27aaf1a105dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a15acce54ded4c772a62b9a12a2be58') in 0.014474 seconds 
+  Import took 0.018151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_blue.prefab
+  artifactKey: Guid(4494230f10dfe8047a2a5d88344554fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_blue.prefab using Guid(4494230f10dfe8047a2a5d88344554fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caa68428c2c0b6befd0cbac4dafa96e') in 0.014937 seconds 
+  Import took 0.018827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_black.prefab
+  artifactKey: Guid(578d7623f1ca2524a9911a5113e9b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_black.prefab using Guid(578d7623f1ca2524a9911a5113e9b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6064a4d55b046dfa81cf7849236687d6') in 0.014914 seconds 
+  Import took 0.018784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1.prefab
+  artifactKey: Guid(de0a5cd298153044680adb33889230ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1.prefab using Guid(de0a5cd298153044680adb33889230ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e245d16aa91c31c6102c67c60f35ce1e') in 0.017595 seconds 
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_black.prefab
+  artifactKey: Guid(a1e73e862754112469eee94684fd93f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_black.prefab using Guid(a1e73e862754112469eee94684fd93f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e56f93884d7ecee55a9a4464cce3346') in 0.016798 seconds 
+  Import took 0.021573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_purple.prefab
+  artifactKey: Guid(48c9786e5b9f8c54b875b1c8372cedc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_purple.prefab using Guid(48c9786e5b9f8c54b875b1c8372cedc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656060792bfa516405b98c5b48b32944') in 0.018006 seconds 
+  Import took 0.022622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book1b.prefab
+  artifactKey: Guid(18b74bdc4d5dc004c990e6fa465c5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/book1b.prefab using Guid(18b74bdc4d5dc004c990e6fa465c5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f27f15d2a116fc36adf575edc207d6') in 0.016103 seconds 
+  Import took 0.020197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_green.prefab
+  artifactKey: Guid(cb876d2fcd55ceb43a08ffbea4c9b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_green.prefab using Guid(cb876d2fcd55ceb43a08ffbea4c9b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866d2b918bdddbc8a5ac51fb85422ea') in 0.016227 seconds 
+  Import took 0.020375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3.prefab
+  artifactKey: Guid(588a095ccca9e9742adc8d5bed6442c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3.prefab using Guid(588a095ccca9e9742adc8d5bed6442c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677dc34570dafa97c8a7d2cfd2d2a467') in 0.034330 seconds 
+  Import took 0.038287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_green.prefab
+  artifactKey: Guid(aed9d5448f01454498e02644d245f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll3_green.prefab using Guid(aed9d5448f01454498e02644d245f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dca058d5ee59f844e97d305a2676a5') in 0.015580 seconds 
+  Import took 0.019308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_blue.prefab
+  artifactKey: Guid(5d3242bb63a733c4fa5fa4c9d74009bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_blue.prefab using Guid(5d3242bb63a733c4fa5fa4c9d74009bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffabcfe29e424f1a6d4ff521ef08bb7') in 0.015611 seconds 
+  Import took 0.020126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map.prefab
+  artifactKey: Guid(a12c2ca395ec44945ac6269c0b504175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map.prefab using Guid(a12c2ca395ec44945ac6269c0b504175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5698b8c72b46c2721f513496228f76c') in 0.015409 seconds 
+  Import took 0.019499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_purple.prefab
+  artifactKey: Guid(06d6494d74b243f48b2bc2ae56af946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_purple.prefab using Guid(06d6494d74b243f48b2bc2ae56af946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6214729e6c6e781f8b2a71d27496a') in 0.016392 seconds 
+  Import took 0.020762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_blue.prefab
+  artifactKey: Guid(c5854799b5ecf8245bd5e577ee288e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll1_blue.prefab using Guid(c5854799b5ecf8245bd5e577ee288e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39e36926ad559963ef7580c74e3162a') in 0.014956 seconds 
+  Import took 0.019589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_yellow.prefab
+  artifactKey: Guid(bfc1496506a5a2341aa9711d33130901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll2_yellow.prefab using Guid(bfc1496506a5a2341aa9711d33130901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1628ca483334be69dab435d99d80d7') in 0.014735 seconds 
+  Import took 0.018570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll_open_clean.prefab
+  artifactKey: Guid(942bf3f73bcbbff4b946c27561639556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/scroll_open_clean.prefab using Guid(942bf3f73bcbbff4b946c27561639556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ca73e8a8ba21b30476eedc3d06ca69') in 0.013522 seconds 
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map2.prefab
+  artifactKey: Guid(9ff3021540c7a2049b3ae296f6f00b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Books/map2.prefab using Guid(9ff3021540c7a2049b3ae296f6f00b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dafa07c6c0330df71ebecdd8792cf12') in 0.013680 seconds 
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.395352 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers
+  artifactKey: Guid(453a38e566b51f4429fad55d28caff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers using Guid(453a38e566b51f4429fad55d28caff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f22cd571a991375b95bad9c251db0') in 0.003875 seconds 
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067777 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/alchemypack.prefab
+  artifactKey: Guid(5874a617a40eb474a9e6cc6075f7dc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/alchemypack.prefab using Guid(5874a617a40eb474a9e6cc6075f7dc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607cb978e8ddab8cb0cd628ceca1124b') in 0.013469 seconds 
+  Import took 0.017314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big.prefab
+  artifactKey: Guid(82b1d9eaf7a5f60469c19ac77ee52d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big.prefab using Guid(82b1d9eaf7a5f60469c19ac77ee52d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa314c9c4546cd5aab57b539c7597aca') in 0.014721 seconds 
+  Import took 0.018465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand4.prefab
+  artifactKey: Guid(d5e2a142fa37f7a4ca4dc30e587bf4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand4.prefab using Guid(d5e2a142fa37f7a4ca4dc30e587bf4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1aeb1f44e4ac27ed1aa4b904419459') in 0.014942 seconds 
+  Import took 0.019160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/purse2.prefab
+  artifactKey: Guid(7bd58dc0c9a4f5a48af8583349dfbd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/purse2.prefab using Guid(7bd58dc0c9a4f5a48af8583349dfbd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be30935700204a1691511b0f0398de70') in 0.013554 seconds 
+  Import took 0.017316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2_lid.prefab
+  artifactKey: Guid(036e291b48381d449b4fe852724b5069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2_lid.prefab using Guid(036e291b48381d449b4fe852724b5069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884cba1ed5013593f0f6daecc2adb390') in 0.013016 seconds 
+  Import took 0.016512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small4.prefab
+  artifactKey: Guid(2e2d639b33abc0a4f8af257d7fe06aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small4.prefab using Guid(2e2d639b33abc0a4f8af257d7fe06aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b43c1c5b3950a0c13e52a7e97dddb6') in 0.014356 seconds 
+  Import took 0.018037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn3.prefab
+  artifactKey: Guid(78eb4ca094a2a2b49a98c0caf5367d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn3.prefab using Guid(78eb4ca094a2a2b49a98c0caf5367d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e529ba647ccaaa984fdaef80dc5f6d31') in 0.014327 seconds 
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4.prefab
+  artifactKey: Guid(c27491d369fd40147b4fae1bfa6913d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4.prefab using Guid(c27491d369fd40147b4fae1bfa6913d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566a15020e2a39a90e7aa40b1f880336') in 0.014267 seconds 
+  Import took 0.017891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big3.prefab
+  artifactKey: Guid(a363b6909620765418e438828af51ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big3.prefab using Guid(a363b6909620765418e438828af51ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bd66603f6a50a5b12a2959259f5048') in 0.013682 seconds 
+  Import took 0.017834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big4.prefab
+  artifactKey: Guid(fcbac8df8151c7e41b89557e78fc693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big4.prefab using Guid(fcbac8df8151c7e41b89557e78fc693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49edff1b057f5f4bfe39f3d8707faa73') in 0.013775 seconds 
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate.prefab
+  artifactKey: Guid(682a0f9e277be56458f227ab79e348ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate.prefab using Guid(682a0f9e277be56458f227ab79e348ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0390443327b2f0061b1a9600013eb0') in 0.013444 seconds 
+  Import took 0.017184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel2.prefab
+  artifactKey: Guid(2e878f9cb33cc764ab7c23a738e30901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel2.prefab using Guid(2e878f9cb33cc764ab7c23a738e30901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c253030909aada0258a0745cffe3c25') in 0.013280 seconds 
+  Import took 0.017053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bag.prefab
+  artifactKey: Guid(3eb086a7db9117e41b34abf242653823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bag.prefab using Guid(3eb086a7db9117e41b34abf242653823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7a34800e55ecf1e48a6c837f4d458e') in 0.012852 seconds 
+  Import took 0.016706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel4_broken.prefab
+  artifactKey: Guid(19c17c6ae041e574eb9bda1c54433f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel4_broken.prefab using Guid(19c17c6ae041e574eb9bda1c54433f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabf3e8d34623aa65fd3cdb1d76c0038') in 0.014006 seconds 
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel4.prefab
+  artifactKey: Guid(698d93eccdb70b9469a68cbdeaa41eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel4.prefab using Guid(698d93eccdb70b9469a68cbdeaa41eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca6c0de26c03049117ca71e9c3a1a8d') in 0.014139 seconds 
+  Import took 0.017979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/sack.prefab
+  artifactKey: Guid(e8b1435f93b51a34b83c2402c93c9252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/sack.prefab using Guid(e8b1435f93b51a34b83c2402c93c9252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ccde78ab44a38ad56f26f561a2848') in 0.014144 seconds 
+  Import took 0.017830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate2.prefab
+  artifactKey: Guid(12d7aedc63a5d314a920952c59a05181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate2.prefab using Guid(12d7aedc63a5d314a920952c59a05181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a24a24c30a4a1fa163b8c52809106') in 0.013829 seconds 
+  Import took 0.017623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn_broken.prefab
+  artifactKey: Guid(a294dd224bd5d554b9a4ac77325696a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn_broken.prefab using Guid(a294dd224bd5d554b9a4ac77325696a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd853cf6a79f91d27db82ff6f6605dd02') in 0.012949 seconds 
+  Import took 0.016793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3_lid.prefab
+  artifactKey: Guid(6dd49041a53950b439c7f0e1c8929489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3_lid.prefab using Guid(6dd49041a53950b439c7f0e1c8929489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2933887f2945544d1b1df618e7fd0514') in 0.012725 seconds 
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3_base.prefab
+  artifactKey: Guid(3465476654fc1024d9ce962836870bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3_base.prefab using Guid(3465476654fc1024d9ce962836870bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54eaa334f9d107b7c44602f496435ec') in 0.014060 seconds 
+  Import took 0.018347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike1.prefab
+  artifactKey: Guid(9e3aea1fc8b2ca841880c2f5d702a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike1.prefab using Guid(9e3aea1fc8b2ca841880c2f5d702a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377411d8c2f64b70f99d4df63c8cc6e4') in 0.014637 seconds 
+  Import took 0.018886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel3_broken.prefab
+  artifactKey: Guid(525bd6be48b1393488fce5a5ac95fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel3_broken.prefab using Guid(525bd6be48b1393488fce5a5ac95fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8d461d3d5621cd1f3cb9757d0f852d') in 0.014000 seconds 
+  Import took 0.017843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2.prefab
+  artifactKey: Guid(247c27e966ddad1458463849be9cf75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2.prefab using Guid(247c27e966ddad1458463849be9cf75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7f878109a4b16b5e2455c3ddb447db') in 0.014797 seconds 
+  Import took 0.019060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn2.prefab
+  artifactKey: Guid(264529ffb65f5474c87d961c6fda4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn2.prefab using Guid(264529ffb65f5474c87d961c6fda4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2a7182408098369cccb59a4bc0a657') in 0.014173 seconds 
+  Import took 0.017962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn2_broken.prefab
+  artifactKey: Guid(3ff5320339aace84194b531dc7178c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn2_broken.prefab using Guid(3ff5320339aace84194b531dc7178c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd040dd67cfae6157d064f62d0f05c6cb') in 0.015578 seconds 
+  Import took 0.019655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate2_broken.prefab
+  artifactKey: Guid(e01b9f959b6ae9e4ebda03703564129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate2_broken.prefab using Guid(e01b9f959b6ae9e4ebda03703564129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acb0cf62fdafbfb074deb0f2813dd23') in 0.014419 seconds 
+  Import took 0.018749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike4.prefab
+  artifactKey: Guid(6a8a5f70e852510458a1e99deb770668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike4.prefab using Guid(6a8a5f70e852510458a1e99deb770668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a606c1a7a932dd3b9de65bfabdf3a5c') in 0.015630 seconds 
+  Import took 0.020173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2_base.prefab
+  artifactKey: Guid(eca99f694f414d24babbd5a28f7651cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest2_base.prefab using Guid(eca99f694f414d24babbd5a28f7651cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba5adc03e2d08e5c8f3f1bb813ca852') in 0.014388 seconds 
+  Import took 0.018306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/purse.prefab
+  artifactKey: Guid(e2a34801390830241a7cc893f226ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/purse.prefab using Guid(e2a34801390830241a7cc893f226ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a0c6fb51d3c67a57f1e6e9f6a8d67a') in 0.014880 seconds 
+  Import took 0.019149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest.prefab
+  artifactKey: Guid(dfe1015561a26d9429a2c1eaf16029cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest.prefab using Guid(dfe1015561a26d9429a2c1eaf16029cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff5f37e09f06b823181cff290e85401') in 0.015466 seconds 
+  Import took 0.019158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn3_broken.prefab
+  artifactKey: Guid(5cb321c8845ff2b498eebc09750f52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn3_broken.prefab using Guid(5cb321c8845ff2b498eebc09750f52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211f0cb6ccd6c2146e1195b14ddda2c8') in 0.014734 seconds 
+  Import took 0.018380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand.prefab
+  artifactKey: Guid(908b3fa9847fcc743b30ad16bc4dfb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand.prefab using Guid(908b3fa9847fcc743b30ad16bc4dfb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767ef3fc2cd0cf6ee9695d1bdbcda8d4') in 0.014410 seconds 
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn4_broken.prefab
+  artifactKey: Guid(7e6696ead3c14a04db1e838266895ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn4_broken.prefab using Guid(7e6696ead3c14a04db1e838266895ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3fd267564fa32e8aab2f78602f4789') in 0.013996 seconds 
+  Import took 0.018146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand3.prefab
+  artifactKey: Guid(76524778e8cc64b48b83280436cacbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand3.prefab using Guid(76524778e8cc64b48b83280436cacbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0a6efd504ebc865c8a1408a1050a6b') in 0.013727 seconds 
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest_base.prefab
+  artifactKey: Guid(1b2a3ef643b557d42be40e2f868e247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest_base.prefab using Guid(1b2a3ef643b557d42be40e2f868e247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550b2102195c6c69b0bb8f7cf5b46b10') in 0.014151 seconds 
+  Import took 0.018414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/medpack.prefab
+  artifactKey: Guid(1dd11db2228cc34419867d34c606a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/medpack.prefab using Guid(1dd11db2228cc34419867d34c606a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c77cf5689c6d5cdb81e65aa661cd7') in 0.013727 seconds 
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand2.prefab
+  artifactKey: Guid(47333712645a29547bad9467fd354df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/bookstand2.prefab using Guid(47333712645a29547bad9467fd354df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164eaa6da974e3184233f5d738f5b15b') in 0.013478 seconds 
+  Import took 0.017516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel.prefab
+  artifactKey: Guid(e99a06e3144dd91419abc92a286d66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel.prefab using Guid(e99a06e3144dd91419abc92a286d66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a76972dbe048589b0c2efdb78b6b17') in 0.013879 seconds 
+  Import took 0.017581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/scrollcase.prefab
+  artifactKey: Guid(a605d30bb4eeb4d41a0e3d8cb4295e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/scrollcase.prefab using Guid(a605d30bb4eeb4d41a0e3d8cb4295e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b882c074d5c6d4d47c940462cc2077e') in 0.013635 seconds 
+  Import took 0.017111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3.prefab
+  artifactKey: Guid(9f8c01a376d99754087dbbd40d09fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest3.prefab using Guid(9f8c01a376d99754087dbbd40d09fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6335883595ca050673def5302ffca4de') in 0.016078 seconds 
+  Import took 0.019837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small3.prefab
+  artifactKey: Guid(cf0f3d8c9ecb10b43a2b27d40f20e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small3.prefab using Guid(cf0f3d8c9ecb10b43a2b27d40f20e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da9b9bda6c82a476c6d9109adc37333') in 0.014324 seconds 
+  Import took 0.018384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel3.prefab
+  artifactKey: Guid(1663aa0b88503d4419506ecd727fd246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel3.prefab using Guid(1663aa0b88503d4419506ecd727fd246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0e8e3c0e9b6dc5dec6dd74262c3ecb') in 0.014074 seconds 
+  Import took 0.017941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike2.prefab
+  artifactKey: Guid(598beff283c9ac54ca80971b413560f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike2.prefab using Guid(598beff283c9ac54ca80971b413560f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10ccb09e385e06ea1c60ff1560e4662') in 0.014326 seconds 
+  Import took 0.017882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike3.prefab
+  artifactKey: Guid(597d3cf02cb30bf45bc8f70029859d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big_noSpike3.prefab using Guid(597d3cf02cb30bf45bc8f70029859d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb4945ac94efa4051b3d218645c49d1') in 0.013968 seconds 
+  Import took 0.017860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big2.prefab
+  artifactKey: Guid(e3ef06b03c508094f81a6a6a125ac89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_big2.prefab using Guid(e3ef06b03c508094f81a6a6a125ac89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2716324b7478af1fd3be0fa37300f7c') in 0.013472 seconds 
+  Import took 0.017064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate_broken.prefab
+  artifactKey: Guid(0ea94485498aa1a4693a1cedd0331e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/crate_broken.prefab using Guid(0ea94485498aa1a4693a1cedd0331e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb6cbf8dfa28823d57e78a4dc539802') in 0.012931 seconds 
+  Import took 0.016764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel_broken.prefab
+  artifactKey: Guid(4281b41217145cc42905aac5b49de093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel_broken.prefab using Guid(4281b41217145cc42905aac5b49de093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894589020e262faa7f87a6b5864af913') in 0.013135 seconds 
+  Import took 0.016916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn4.prefab
+  artifactKey: Guid(8338d69b9ba8d7242a34cdd1e6f89c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn4.prefab using Guid(8338d69b9ba8d7242a34cdd1e6f89c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb0deffbbc33d24050070522305f78b') in 0.014396 seconds 
+  Import took 0.018086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/scrollcase2.prefab
+  artifactKey: Guid(e4bc69d568a653147848f8cdd80b3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/scrollcase2.prefab using Guid(e4bc69d568a653147848f8cdd80b3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a21b731a4d9a4b19156ee08f27ee5c') in 0.014948 seconds 
+  Import took 0.018572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small2.prefab
+  artifactKey: Guid(cda2b5e6aeb18df45bad7df64d98a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small2.prefab using Guid(cda2b5e6aeb18df45bad7df64d98a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5fc297d711f1283f34f63951760787') in 0.013458 seconds 
+  Import took 0.017024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small.prefab
+  artifactKey: Guid(3b4402b281da2114aa30784e6f0213c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small.prefab using Guid(3b4402b281da2114aa30784e6f0213c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c7b9f3966b2ba3a5b026856a160f79') in 0.014143 seconds 
+  Import took 0.018091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/jewelrybox2.prefab
+  artifactKey: Guid(9f0974cedb59b1a4d9140997ca6ddabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/jewelrybox2.prefab using Guid(9f0974cedb59b1a4d9140997ca6ddabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8a049567ac4d8653aa9308aee7009e') in 0.014665 seconds 
+  Import took 0.018509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/medpack2.prefab
+  artifactKey: Guid(a0973743ee4aadc4ea517bd369e9a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/medpack2.prefab using Guid(a0973743ee4aadc4ea517bd369e9a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c32145cab5245100347ad642836ac3') in 0.014498 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel2_broken.prefab
+  artifactKey: Guid(bc6030457a5d45546a1c409d05fa7e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/barrel2_broken.prefab using Guid(bc6030457a5d45546a1c409d05fa7e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707fa0720e505e1707f27c254e6132b8') in 0.013698 seconds 
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/jewelrybox.prefab
+  artifactKey: Guid(3e4da9bf5b8e6604faaabffe881eab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/jewelrybox.prefab using Guid(3e4da9bf5b8e6604faaabffe881eab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db5cefcd0b93bd7256920a1e3e97233') in 0.015591 seconds 
+  Import took 0.019442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4_base.prefab
+  artifactKey: Guid(0e9731949babdfe45821a186ccbfafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4_base.prefab using Guid(0e9731949babdfe45821a186ccbfafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5104863b6bf5ce24a3acf49e5a09ff4d') in 0.014656 seconds 
+  Import took 0.018994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4_lid.prefab
+  artifactKey: Guid(84d9295b0f0dadc4da4f912b745bc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest4_lid.prefab using Guid(84d9295b0f0dadc4da4f912b745bc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5174ccbc039ca4b551028c6d7ecae86') in 0.013666 seconds 
+  Import took 0.017319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest_lid.prefab
+  artifactKey: Guid(24d4d82eb4eda9b4490b96fa4600db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/stonechest_lid.prefab using Guid(24d4d82eb4eda9b4490b96fa4600db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a38235cdb98c696dc8878220df5fd9') in 0.013648 seconds 
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn.prefab
+  artifactKey: Guid(33b55b193b939e34f9ffc9288054e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/urn.prefab using Guid(33b55b193b939e34f9ffc9288054e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a50555e9eaf45da440402c53a2ca5b') in 0.013424 seconds 
+  Import took 0.016940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.967079 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small.prefab
+  artifactKey: Guid(3b4402b281da2114aa30784e6f0213c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Containers/woodenchest_small.prefab using Guid(3b4402b281da2114aa30784e6f0213c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d1587ee4833008bd5c0256e307e053') in 0.016502 seconds 
+  Import took 0.021708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2310.661948 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special
+  artifactKey: Guid(b69bddbb98aad01409081a6cdc49c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special using Guid(b69bddbb98aad01409081a6cdc49c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601effda0900df7aee22c8f8d2b42651') in 0.004538 seconds 
+  Import took 0.008958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003059 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special
+  artifactKey: Guid(b69bddbb98aad01409081a6cdc49c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special using Guid(b69bddbb98aad01409081a6cdc49c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601effda0900df7aee22c8f8d2b42651') in 0.003945 seconds 
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079114 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special/horn.prefab
+  artifactKey: Guid(c0c63f4a5d8d07e4681cb97c4d7866cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special/horn.prefab using Guid(c0c63f4a5d8d07e4681cb97c4d7866cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5fb7488fd79ae54cf57dd672eef101') in 0.168642 seconds 
+  Import took 0.173230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special/lockpicks.prefab
+  artifactKey: Guid(ec95e9d3a73e13d4b976b6baa117cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Special/lockpicks.prefab using Guid(ec95e9d3a73e13d4b976b6baa117cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef58c2ad1d34eff0192e5abbc36ddb91') in 0.014188 seconds 
+  Import took 0.018212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.801468 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency
+  artifactKey: Guid(8ded72b18e98a674292c3afe90f1c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency using Guid(8ded72b18e98a674292c3afe90f1c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9475363f9d2b7a06946cacabcb2bf0') in 0.004996 seconds 
+  Import took 0.009737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005181 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency
+  artifactKey: Guid(8ded72b18e98a674292c3afe90f1c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency using Guid(8ded72b18e98a674292c3afe90f1c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9475363f9d2b7a06946cacabcb2bf0') in 0.003988 seconds 
+  Import took 0.008595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078041 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin.prefab
+  artifactKey: Guid(1f1e6e31af7d7dd4d80cc23cff0f2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin.prefab using Guid(1f1e6e31af7d7dd4d80cc23cff0f2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32d353e3996332942d90c178ceb9c7') in 0.047739 seconds 
+  Import took 0.052683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_oriental.prefab
+  artifactKey: Guid(b092e4bdd3112004f9d22375a18c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_oriental.prefab using Guid(b092e4bdd3112004f9d22375a18c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4269fa62dc07bef655dd5d4164458') in 0.016257 seconds 
+  Import took 0.020443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap.prefab
+  artifactKey: Guid(b90b73773273cf5429967bf5bc93e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap.prefab using Guid(b90b73773273cf5429967bf5bc93e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2e06c433af3e7855db9650eeb010e6') in 0.018765 seconds 
+  Import took 0.023398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_platinum.prefab
+  artifactKey: Guid(7bf987a4bdcef5d4082dae439e5409a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_platinum.prefab using Guid(7bf987a4bdcef5d4082dae439e5409a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e7f8bc44b4a7cd498cf993763f735') in 0.017382 seconds 
+  Import took 0.021985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_platinum.prefab
+  artifactKey: Guid(58230da2cca78264aa7a03ffda406831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_platinum.prefab using Guid(58230da2cca78264aa7a03ffda406831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab43ece4e16f28f8ccbf2b696cad5138') in 0.015473 seconds 
+  Import took 0.019800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_platinum.prefab
+  artifactKey: Guid(8ff78da35cf495e409034906d54fff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_platinum.prefab using Guid(8ff78da35cf495e409034906d54fff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b898e4f1182593f59b0e3d9d5f055') in 0.015443 seconds 
+  Import took 0.019759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot.prefab
+  artifactKey: Guid(f48eb35d5715aa54c95b6d16375037f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot.prefab using Guid(f48eb35d5715aa54c95b6d16375037f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b70be0c0af4d5d01c2b99cfd094ed0c') in 0.016040 seconds 
+  Import took 0.020177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_silver.prefab
+  artifactKey: Guid(7e1b0dba753b3b84a9cdce9f08e2ce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_silver.prefab using Guid(7e1b0dba753b3b84a9cdce9f08e2ce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce524ebc0be6405231b5a9bab180ad4f') in 0.016597 seconds 
+  Import took 0.021040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_platinum.prefab
+  artifactKey: Guid(b0c965e23d3885b4a8d39c510dae8cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_platinum.prefab using Guid(b0c965e23d3885b4a8d39c510dae8cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d54bcf33b9dd9e70040d8bb621635') in 0.015336 seconds 
+  Import took 0.019653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_silver.prefab
+  artifactKey: Guid(252701e0fd0de4841ac6e8ae466a33ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_silver.prefab using Guid(252701e0fd0de4841ac6e8ae466a33ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd800397a0fdedd41e53e9a0b2bdbbd16') in 0.016586 seconds 
+  Import took 0.020652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_copper.prefab
+  artifactKey: Guid(438744120967b0446872c3fe7ba8fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_copper.prefab using Guid(438744120967b0446872c3fe7ba8fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b528aedb3ba802b41bdffe72777cc10e') in 0.016892 seconds 
+  Import took 0.021126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_silver.prefab
+  artifactKey: Guid(466770d0502556f4ea55cda805e35ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_silver.prefab using Guid(466770d0502556f4ea55cda805e35ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f21cb41c27e332cb748e7696281ade') in 0.017046 seconds 
+  Import took 0.021936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_copper.prefab
+  artifactKey: Guid(fa6a5324331bca446a6c757046677ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_copper.prefab using Guid(fa6a5324331bca446a6c757046677ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f789bf923b918335b3283cd1ccd40fe') in 0.015592 seconds 
+  Import took 0.019464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_copper.prefab
+  artifactKey: Guid(e92d14a4607a9f940923f8a2977b8b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/ingot_copper.prefab using Guid(e92d14a4607a9f940923f8a2977b8b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fe6ebbbebaf84e2977841bf4dd9eaf') in 0.016563 seconds 
+  Import took 0.020466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_copper.prefab
+  artifactKey: Guid(d98ac5ad73e2bed4387b0dbd84cab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile_copper.prefab using Guid(d98ac5ad73e2bed4387b0dbd84cab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5752ae2065f850b56a18259210c5e46') in 0.015562 seconds 
+  Import took 0.019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile.prefab
+  artifactKey: Guid(379688683103332449323062084118ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_pile.prefab using Guid(379688683103332449323062084118ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8904fa2b971b69b8b1bd07f07b5d65') in 0.015445 seconds 
+  Import took 0.019862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_silver.prefab
+  artifactKey: Guid(63c8056d53e296343873a066e3b672d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Currency/coin_heap_silver.prefab using Guid(63c8056d53e296343873a066e3b672d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9317c50fea214f8d1dee4d69ab7a217e') in 0.015315 seconds 
+  Import took 0.019387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.909602 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions
+  artifactKey: Guid(8990fae1531a7e6419fd0f2863c94076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions using Guid(8990fae1531a7e6419fd0f2863c94076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd5faae41347e1a45ec59c02750aeac') in 0.004054 seconds 
+  Import took 0.008189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284982 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only.prefab
+  artifactKey: Guid(30c9e218e77afe643ad5c48ed3188a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only.prefab using Guid(30c9e218e77afe643ad5c48ed3188a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c2a8b393411be81e5161ab2b8e1e50') in 0.063336 seconds 
+  Import took 0.068189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple-red.prefab
+  artifactKey: Guid(c6a1403f39a9c534fab0a7f4de9d2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple-red.prefab using Guid(c6a1403f39a9c534fab0a7f4de9d2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b0c234e3668d7fb24b61a4846aff15') in 0.015655 seconds 
+  Import took 0.020181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only.prefab
+  artifactKey: Guid(c7411bbc60f0b644da74fc0cd98ac97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only.prefab using Guid(c7411bbc60f0b644da74fc0cd98ac97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c257c3313322608356f79f74eaaa32c') in 0.022523 seconds 
+  Import took 0.026817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_green.prefab
+  artifactKey: Guid(cc2ef75e9c4c1604d8626ed52f232e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_green.prefab using Guid(cc2ef75e9c4c1604d8626ed52f232e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66a13dc2b5882cbbc93ed3ea43eb8c2') in 0.014391 seconds 
+  Import took 0.018149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_green-red.prefab
+  artifactKey: Guid(157ef03d08b8782448c7424c5e619860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_green-red.prefab using Guid(157ef03d08b8782448c7424c5e619860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b8b77fdb6ef693221049ece1f3a5a9') in 0.014714 seconds 
+  Import took 0.018591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_red.prefab
+  artifactKey: Guid(c0f5256c3235ca04a9e0f79e314f11e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_red.prefab using Guid(c0f5256c3235ca04a9e0f79e314f11e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5da842ab064dac043ec63353635efc') in 0.015127 seconds 
+  Import took 0.019415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_green-red.prefab
+  artifactKey: Guid(7b86c0fea5f657f4d80c1951e4e72fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_green-red.prefab using Guid(7b86c0fea5f657f4d80c1951e4e72fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0f6dfe0974567003cd0190fcdbbd8') in 0.013407 seconds 
+  Import took 0.018185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_fire.prefab
+  artifactKey: Guid(7b6e6fe9668e84548a8f963c2047d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_fire.prefab using Guid(7b6e6fe9668e84548a8f963c2047d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee78c94481743be3af51c994713ebaa7') in 0.015246 seconds 
+  Import took 0.020040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_light-blue.prefab
+  artifactKey: Guid(cf522b2cade14bf44b16638a68f1e4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_light-blue.prefab using Guid(cf522b2cade14bf44b16638a68f1e4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2792409ac24cc52acff716913423c6') in 0.013999 seconds 
+  Import took 0.017838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_red-green.prefab
+  artifactKey: Guid(02d1b618c7cd828449fd2194ef842755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_red-green.prefab using Guid(02d1b618c7cd828449fd2194ef842755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20967028dc9cac15dde88901fa323d1') in 0.013450 seconds 
+  Import took 0.017397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_green.prefab
+  artifactKey: Guid(71c67145b4347354b82f2d006229e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_green.prefab using Guid(71c67145b4347354b82f2d006229e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba159a6fb199d8a960cea7528458abc1') in 0.013904 seconds 
+  Import took 0.017809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_fire.prefab
+  artifactKey: Guid(f8c2837ba7f125544b73b4da1cc39197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_fire.prefab using Guid(f8c2837ba7f125544b73b4da1cc39197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6acc723febbc70772dbbcece164d61') in 0.014339 seconds 
+  Import took 0.018896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_purple-red.prefab
+  artifactKey: Guid(49cacb94b04527c48b6cb90e9c27e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_purple-red.prefab using Guid(49cacb94b04527c48b6cb90e9c27e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952f1d79f9358aaef28593ef6557bc57') in 0.013499 seconds 
+  Import took 0.017935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_fire.prefab
+  artifactKey: Guid(3fd84bca48e7d0e43ad2a88622a2145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_fire.prefab using Guid(3fd84bca48e7d0e43ad2a88622a2145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc392152e39942980a8b5e2930ea201b') in 0.013438 seconds 
+  Import took 0.017116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_green-red.prefab
+  artifactKey: Guid(c46ce3f0eb1ebdb45a4e084f0b7e1108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_green-red.prefab using Guid(c46ce3f0eb1ebdb45a4e084f0b7e1108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0d5485074fd2b4242bebc4f7a0f94a') in 0.013910 seconds 
+  Import took 0.017761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_red.prefab
+  artifactKey: Guid(da971be9a6fa62440a88587f5a8aa187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_red.prefab using Guid(da971be9a6fa62440a88587f5a8aa187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd486f1ac458f9254f3cf9dd8cf2b71d') in 0.013713 seconds 
+  Import took 0.017406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_fire.prefab
+  artifactKey: Guid(8ab27a53167130a47aa465535d7c5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_fire.prefab using Guid(8ab27a53167130a47aa465535d7c5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082b21d89a32eaf84bd571a53b376f42') in 0.013298 seconds 
+  Import took 0.017176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_purple.prefab
+  artifactKey: Guid(84d5e7ce9debaa4488b65f75d57dadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_purple.prefab using Guid(84d5e7ce9debaa4488b65f75d57dadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c05d1ab84d5e50ecd7bde6a1eb31e') in 0.013127 seconds 
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_green-red.prefab
+  artifactKey: Guid(7226fde2f03a2954a920c2a5e674f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_green-red.prefab using Guid(7226fde2f03a2954a920c2a5e674f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc49dcfa09d900d8ee5fe9e3be4ac08c') in 0.013840 seconds 
+  Import took 0.017839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_purple-red.prefab
+  artifactKey: Guid(6d874f1037bb14d43b236843aea4732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_purple-red.prefab using Guid(6d874f1037bb14d43b236843aea4732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e39c7c747014cf5230f1e9e80507be') in 0.013430 seconds 
+  Import took 0.016963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_green.prefab
+  artifactKey: Guid(b090bbb839ab8cf4284c01195a34c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_green.prefab using Guid(b090bbb839ab8cf4284c01195a34c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52522fc7d391adbf4977c72bd4c58b0') in 0.013540 seconds 
+  Import took 0.017850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_purple-red.prefab
+  artifactKey: Guid(bef4c6be2a8665c4db1e6f4693db3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_purple-red.prefab using Guid(bef4c6be2a8665c4db1e6f4693db3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b67ad7856028d2fe7220a0d9b9ebf2') in 0.013497 seconds 
+  Import took 0.017163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_yellow.prefab
+  artifactKey: Guid(18d383b21f2bd87458509b507a7c6419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_yellow.prefab using Guid(18d383b21f2bd87458509b507a7c6419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c097e752946d5d075e341541be7f1026') in 0.013832 seconds 
+  Import took 0.017701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_yellow.prefab
+  artifactKey: Guid(4f9e2e1a2a8af7545911a7bea0ae95d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_yellow.prefab using Guid(4f9e2e1a2a8af7545911a7bea0ae95d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68a414f26b1386cdc069d1b912ee8c') in 0.014062 seconds 
+  Import took 0.017922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_fire.prefab
+  artifactKey: Guid(87c02fde98912004fb9d784bdfbee88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_fire.prefab using Guid(87c02fde98912004fb9d784bdfbee88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c72e5ae9d7f6b122d605d71e24ecd7') in 0.014117 seconds 
+  Import took 0.017933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_red.prefab
+  artifactKey: Guid(726b21895e4b41b42bcf320a16040a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_red.prefab using Guid(726b21895e4b41b42bcf320a16040a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6994eb882d9aa073baa8be3f6d02ebb') in 0.013484 seconds 
+  Import took 0.017458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_fire.prefab
+  artifactKey: Guid(136733df6dcf16c41bc20029d7967357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_fire.prefab using Guid(136733df6dcf16c41bc20029d7967357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e9696362dba754cc04b60c38223099') in 0.013870 seconds 
+  Import took 0.017573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_green.prefab
+  artifactKey: Guid(e6d30dfb81fb5de4d9915f7a32e21094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_green.prefab using Guid(e6d30dfb81fb5de4d9915f7a32e21094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46f6f4a54980c5455f980fb34fe630d') in 0.013278 seconds 
+  Import took 0.017074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple.prefab
+  artifactKey: Guid(3dcaeffae94cadc4fa3980244a1ccd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple.prefab using Guid(3dcaeffae94cadc4fa3980244a1ccd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e22999aaf3a2379ea25a91c869fba0') in 0.013285 seconds 
+  Import took 0.017184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_red-green.prefab
+  artifactKey: Guid(f1b7c37ac8e3df042ba30e498f9f3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_red-green.prefab using Guid(f1b7c37ac8e3df042ba30e498f9f3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9385a45f1535ebe05748ff9bf2e53dd8') in 0.013059 seconds 
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_red.prefab
+  artifactKey: Guid(b54166b5d6d495f41a7d2b57975034e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_red.prefab using Guid(b54166b5d6d495f41a7d2b57975034e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0446c58d85d5e6bf4276cc5323853ee2') in 0.013056 seconds 
+  Import took 0.016617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_red-green.prefab
+  artifactKey: Guid(57de5e4f12782134c9a54f5bd511a8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_red-green.prefab using Guid(57de5e4f12782134c9a54f5bd511a8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219e9f8e845221ae42c6eb724d0eecd') in 0.013566 seconds 
+  Import took 0.017292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_green-red.prefab
+  artifactKey: Guid(272b07ff834560249b63785a43675ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_green-red.prefab using Guid(272b07ff834560249b63785a43675ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51885bc354563a5e42ddfabf1a43e96f') in 0.012955 seconds 
+  Import took 0.016600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_purple-red.prefab
+  artifactKey: Guid(ead5da236efa85f4186ab45b54ed8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_purple-red.prefab using Guid(ead5da236efa85f4186ab45b54ed8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eb4d0f06ec0e63e12fef1b87163582') in 0.014193 seconds 
+  Import took 0.017902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial.prefab
+  artifactKey: Guid(d0e677b998d14e542abbb5083bcf3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial.prefab using Guid(d0e677b998d14e542abbb5083bcf3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422114533164e957d88f72d32584b79c') in 0.013860 seconds 
+  Import took 0.017720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_yellow.prefab
+  artifactKey: Guid(e8804aee1d2bc4c4a987e096ca0c07d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_yellow.prefab using Guid(e8804aee1d2bc4c4a987e096ca0c07d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12369472d14571b12c919bc191a53042') in 0.013319 seconds 
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped.prefab
+  artifactKey: Guid(25e418f7177e0d2418afed1487b90acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped.prefab using Guid(25e418f7177e0d2418afed1487b90acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761d1e4a948cb49d0337c0221698c959') in 0.014220 seconds 
+  Import took 0.018340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_purple.prefab
+  artifactKey: Guid(c1068c8a980ebfe4597c455b1b03de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_purple.prefab using Guid(c1068c8a980ebfe4597c455b1b03de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ac3510dd17b7ef59813556bed06bf5') in 0.014156 seconds 
+  Import took 0.018146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_yellow.prefab
+  artifactKey: Guid(4acd438cf4075c4468f4f9c258a08e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_yellow.prefab using Guid(4acd438cf4075c4468f4f9c258a08e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0261174abd7fe6b1ff068a7f025d7dd8') in 0.015001 seconds 
+  Import took 0.019775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_purple.prefab
+  artifactKey: Guid(f3f7dad4571c4ce43a29cae253b9d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_purple.prefab using Guid(f3f7dad4571c4ce43a29cae253b9d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cae8556b969b3f07b96a06e6bf63f7') in 0.014244 seconds 
+  Import took 0.018999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_red-green.prefab
+  artifactKey: Guid(a4a8743793c86fa419736758fe922594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_red-green.prefab using Guid(a4a8743793c86fa419736758fe922594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0903f079aeeaffba698a32045c9fa1d9') in 0.014887 seconds 
+  Import took 0.019052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_light-blue.prefab
+  artifactKey: Guid(ce935efb9467f404d9f666613cb82adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_light-blue.prefab using Guid(ce935efb9467f404d9f666613cb82adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e542ce52effe7f119dd0c182bfdb619') in 0.013838 seconds 
+  Import took 0.017676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_green.prefab
+  artifactKey: Guid(ae18343bc6cf77b4f87ab6ac45ba96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_green.prefab using Guid(ae18343bc6cf77b4f87ab6ac45ba96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603a2c0e99e6d5cdda450e79d8d66890') in 0.013256 seconds 
+  Import took 0.017135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_purple.prefab
+  artifactKey: Guid(4602b01192ff39849a6d0a1d7e4d60c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_purple.prefab using Guid(4602b01192ff39849a6d0a1d7e4d60c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6298ac3625531535dbf35f66a212319') in 0.013095 seconds 
+  Import took 0.016860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_green.prefab
+  artifactKey: Guid(0a0b8115495264642b38ba77e0b3cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_green.prefab using Guid(0a0b8115495264642b38ba77e0b3cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c451d9b975f65bc6933920b750fd6c') in 0.013611 seconds 
+  Import took 0.017512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_red.prefab
+  artifactKey: Guid(77f28f0e53636ea42ac7512466f7bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_red.prefab using Guid(77f28f0e53636ea42ac7512466f7bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b149b50a79e53c731b70295cfdbf43') in 0.013137 seconds 
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped.prefab
+  artifactKey: Guid(89ff1dcdcca86204a90d8dfe7c39f10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped.prefab using Guid(89ff1dcdcca86204a90d8dfe7c39f10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8133b8c0a202dcf734baf05cf69705') in 0.014123 seconds 
+  Import took 0.018306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_purple.prefab
+  artifactKey: Guid(c5d2f471c68de37489a3aeb0b2903a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_purple.prefab using Guid(c5d2f471c68de37489a3aeb0b2903a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce27484b35852ca71e1dffb29393e43') in 0.013998 seconds 
+  Import took 0.018151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_red-green.prefab
+  artifactKey: Guid(2a04e6129d1334a4fa78077ae904e5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_red-green.prefab using Guid(2a04e6129d1334a4fa78077ae904e5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0509cd7cad01f79b8bf0e39f8e66f') in 0.013590 seconds 
+  Import took 0.017615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_light-blue.prefab
+  artifactKey: Guid(58b3270fd1cc8e941862903a01774bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_light-blue.prefab using Guid(58b3270fd1cc8e941862903a01774bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf55311869de957f6e4563209c95670') in 0.013339 seconds 
+  Import took 0.017093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_yellow.prefab
+  artifactKey: Guid(9d782ae2aac53534ab5f36ecf491366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_yellow.prefab using Guid(9d782ae2aac53534ab5f36ecf491366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724d0d62f4f9702421d0ba00e17de6dc') in 0.013271 seconds 
+  Import took 0.017000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_green-red.prefab
+  artifactKey: Guid(6ce605995f893634383cd12fc7c02f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_green-red.prefab using Guid(6ce605995f893634383cd12fc7c02f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3116e4d4fef85f47374fd2c74ca6a7') in 0.014026 seconds 
+  Import took 0.017639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_light-blue.prefab
+  artifactKey: Guid(c93715e33f8d6914e86b017656ae340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_only_light-blue.prefab using Guid(c93715e33f8d6914e86b017656ae340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271b2096b622d6d73975978719859936') in 0.013351 seconds 
+  Import took 0.017216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_yellow.prefab
+  artifactKey: Guid(b07bcf1509e5d44408be3250db5f5044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_yellow.prefab using Guid(b07bcf1509e5d44408be3250db5f5044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af7f753e8f3932a8de812d3db93cd56') in 0.013302 seconds 
+  Import took 0.016989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_purple-red.prefab
+  artifactKey: Guid(2973b52569df0784899cfd8d618eccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_purple-red.prefab using Guid(2973b52569df0784899cfd8d618eccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7df70d65d5610666e90a73987727aa7') in 0.014258 seconds 
+  Import took 0.017984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_red-green.prefab
+  artifactKey: Guid(98f833b94280de44d81e05a795cd2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_red-green.prefab using Guid(98f833b94280de44d81e05a795cd2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef56ec42b6949992a1c8398aa82470d') in 0.014138 seconds 
+  Import took 0.018606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple-red 1.prefab
+  artifactKey: Guid(53bf45a91a858724bae58c8e3a5d533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_purple-red 1.prefab using Guid(53bf45a91a858724bae58c8e3a5d533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0621c78e8b373d6b0dca649ed335c5dd') in 0.013303 seconds 
+  Import took 0.017222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_red.prefab
+  artifactKey: Guid(77864ffabd3aaf44e94edafb82e131d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_red.prefab using Guid(77864ffabd3aaf44e94edafb82e131d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b21c2fe9d76ec23680e563c26e2c5') in 0.013877 seconds 
+  Import took 0.017815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_green.prefab
+  artifactKey: Guid(b02bbd3758dd59046a5ccbe89698253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_green.prefab using Guid(b02bbd3758dd59046a5ccbe89698253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58db0f0e2d38136f6d343fd360f82c2d') in 0.013780 seconds 
+  Import took 0.017776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only.prefab
+  artifactKey: Guid(164dcfcda66dde64383a3ea15263d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only.prefab using Guid(164dcfcda66dde64383a3ea15263d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd20f4a574867bc8032dc3860fbc25') in 0.013492 seconds 
+  Import took 0.017046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_fire.prefab
+  artifactKey: Guid(a9388496698238d4899c847acf9c2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_fire.prefab using Guid(a9388496698238d4899c847acf9c2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b779e21b1bfcd06eed1c240a77fe5f') in 0.013949 seconds 
+  Import took 0.017750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_light-blue.prefab
+  artifactKey: Guid(882a7e295cec02c49879a17a73c8c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_light-blue.prefab using Guid(882a7e295cec02c49879a17a73c8c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67d4060a9c0d0d00545f131e1508297') in 0.013405 seconds 
+  Import took 0.017271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_green-red.prefab
+  artifactKey: Guid(f3ef755618fed1f41a583b288d1d3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_bottle_strapped_green-red.prefab using Guid(f3ef755618fed1f41a583b288d1d3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76e639ffee8a3b080d38467598ef0fe') in 0.014319 seconds 
+  Import took 0.018342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_yellow.prefab
+  artifactKey: Guid(c1b67ac4da7e2d2469a5635aeb028d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall_only_yellow.prefab using Guid(c1b67ac4da7e2d2469a5635aeb028d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01f9348fe097ddd2f820f84c9d93f8') in 0.013873 seconds 
+  Import took 0.017822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_red-green.prefab
+  artifactKey: Guid(21f34aad74348d74db0447c3070df653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only_red-green.prefab using Guid(21f34aad74348d74db0447c3070df653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aa5d53efa56d7d3266b0ab2f5da13a') in 0.013684 seconds 
+  Import took 0.017868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_light-blue.prefab
+  artifactKey: Guid(350a0d5dfb9908d418c378a99984df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_vial_light-blue.prefab using Guid(350a0d5dfb9908d418c378a99984df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ca33481884675d85c389a07b9421d5') in 0.015223 seconds 
+  Import took 0.019259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_purple-red.prefab
+  artifactKey: Guid(3bf9fbd6c6f4fa242a776efccd2590a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_purple-red.prefab using Guid(3bf9fbd6c6f4fa242a776efccd2590a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1748d847b8a7279c015655319dbe8fb2') in 0.015149 seconds 
+  Import took 0.019296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_purple.prefab
+  artifactKey: Guid(a26568be63a997b48abd0a2e15c91cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_strapped_purple.prefab using Guid(a26568be63a997b48abd0a2e15c91cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198aa968e2983d2fea758643da4f794f') in 0.014518 seconds 
+  Import took 0.019090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_light-blue.prefab
+  artifactKey: Guid(5914552529959f947b2a45732d111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_light-blue.prefab using Guid(5914552529959f947b2a45732d111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188fb7803c766bb536036f972a0efd8d') in 0.015218 seconds 
+  Import took 0.019411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only.prefab
+  artifactKey: Guid(451471fd22dfbe048b6df8c6cd1b983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flask_only.prefab using Guid(451471fd22dfbe048b6df8c6cd1b983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787f18d8a593d05f609131398ddfda1e') in 0.014462 seconds 
+  Import took 0.019030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012818 seconds.
+  path: Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_light-blue.prefab
+  artifactKey: Guid(5914552529959f947b2a45732d111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy Treasure Loot kit/Prefabs/Potions/potion_flasktall2_only_light-blue.prefab using Guid(5914552529959f947b2a45732d111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188fb7803c766bb536036f972a0efd8d') in 0.014475 seconds 
+  Import took 0.019011 seconds .
+

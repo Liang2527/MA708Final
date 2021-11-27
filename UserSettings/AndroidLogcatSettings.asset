@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "c8786281",
+    "m_SelectedDeviceId": "R5CNC0WKWEJ",
     "m_SelectedPackage": {
-        "deviceId": "c8786281",
+        "deviceId": "R5CNC0WKWEJ",
         "name": "com.liangmafinal",
-        "processId": 24021,
+        "processId": 9639,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -90,6 +90,66 @@
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
             "processId": 30430,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 29208,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 31360,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 5350,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 11093,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 22465,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 12176,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 17791,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 21756,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 2595,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 9639,
             "exited": false
         },
         {
