@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CNC0WKWEJ",
         "name": "com.liangmafinal",
-        "processId": 9639,
+        "processId": 3235,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,145 +11,85 @@
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 4199,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 8712,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 8896,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 30995,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 5354,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.sec.android.app.launcher",
-            "processId": 2726,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 13016,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 20091,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 8418,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 18795,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 9898,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 10055,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 19436,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 30430,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 29208,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 31360,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 5350,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 11093,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 22465,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
             "processId": 12176,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
             "processId": 17791,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
             "processId": 21756,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
             "processId": 2595,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
             "processId": 9639,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 14103,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 16490,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 28752,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 10409,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 25051,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 4493,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 11299,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 12569,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "com.liangmafinal",
+            "processId": 3235,
             "exited": false
         },
         {
