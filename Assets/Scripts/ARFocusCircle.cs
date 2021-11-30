@@ -137,12 +137,7 @@ public class ARFocusCircle : MonoBehaviour
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
         arOrigin.GetComponent<ARRaycastManager>().Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneEstimated);
-        //raycastManager.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneEstimated);
-        
-        //PlaneEstimated
-        //Debug.Log(" >>> Position of the Camera is: " + placementPose.position.ToString() + " <<< ");
-        //Debug.Log(" >>> Position of the Camera is: " + placementPose.rotation.ToString() + " <<< ");
-        //Debug.Log(" >>>>>>>>>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
+
 
         placementPoseIsValid = hits.Count > 0;
         if (placementPoseIsValid)
@@ -154,16 +149,6 @@ public class ARFocusCircle : MonoBehaviour
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             placementPose.rotation = Quaternion.LookRotation(cameraBearing);
 
-            //foreach (var plane in arOrigin.GetComponent<ARPlaneManager>().trackables)
-            //{
-            //    if (isUIHidden == true)
-            //        plane.gameObject.SetActive(true);
-            //    if (isUIHidden == false)
-            //        plane.gameObject.SetActive(false);
-            //}
-            //Debug.Log(" >>> List of Raycast Hits are: " + hits.ToString() + " <<< ");
-            //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.position.ToString() + " <<< ");
-            //Debug.Log(" >>> Hitted!!! Position of the Hit is: " + placementPose.rotation.ToString() + " <<< ");
         }
     }
 }

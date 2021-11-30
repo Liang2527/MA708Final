@@ -18,6 +18,9 @@ public class ArInteraction : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] Animation animation;
 
+    [SerializeField] Transform chickenParent;
+    private Transform _chickenParentHolder;
+
     //int count = 0;
     // Start is called before the first frame update
     void Start()
@@ -31,10 +34,8 @@ public class ArInteraction : MonoBehaviour
         pointer = ManoGestureContinuous.POINTER_GESTURE;
         drop = ManoGestureTrigger.DROP;
         animator = gameObject.GetComponent<Animator>();
-        animation = gameObject.GetComponent<Animation>();
-        gameObject.GetComponent<RigBuilder>().enabled = false;
-        animation.Play("Idle_1");
-
+        _chickenParentHolder = chickenParent.parent.transform;
+        //animation = gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -43,8 +44,10 @@ public class ArInteraction : MonoBehaviour
     {
         if (gameObject.name == "PrefabChicken")
         {
-            gameObject.GetComponent<RigBuilder>().enabled = enabled;
-            animation.Play("Idle_1");
+            gameObject.GetComponent<RigBuilder>().enabled = false;
+            animator.enabled = true;
+            animator.Play("Idle_1",0,0f);
+            
         }
     }
 
@@ -56,51 +59,45 @@ public class ArInteraction : MonoBehaviour
             //transform.GetComponent<Animator>().enabled = true;
             if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == pointer)
             {
-                //chickenAnimator.Play("Idle_2", 0, 0.0f);
-                transform.parent.GetComponent<Animation>().Play("Idle_2");
-                //animation.Play("Idle_2");
+                animator.Play("Idle_2",0,0f);
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == click)
             {
-                //Do Something
-                //chickenAnimator.Play("Eat", 0, 0.0f);
-
-                //gameObject.GetComponentInChildren<RigBuilder>().enable = false;
                 gameObject.GetComponent<RigBuilder>().enabled = false;
-                transform.parent.GetComponent<Animation>().Play("Eat");
-                //animation.Play("Eat");
+                animator.Play("Eat",0,0f);
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == pinch)
             {
                 gameObject.GetComponent<RigBuilder>().enabled = false;
-                transform.Rotate(Vector3.up * Time.deltaTime * 50, Space.World);
-                transform.parent.GetComponent<Animation>().Play("Eat");
-                //animation.Play("Walk");
+                transform.parent.transform.Rotate(Vector3.up * Time.deltaTime * 50, Space.World);
+
+                chickenParent.GetComponentInParent<Animation>().Play("Walk 1");
+                animator.Play("Walk", 0, 0f);
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == drop)
             {
-                gameObject.GetComponent<RigBuilder>().enabled = false;
-                transform.parent.GetComponent<Animation>().Play("Idle_1");
-                //animation.Play("Idle_1");
+                animator.Play("Idle_1",0,0f);
+                gameObject.GetComponent<RigBuilder>().enabled = true;
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == grab)
             {
                 gameObject.GetComponent<RigBuilder>().enabled = false;
-                transform.parent = other.gameObject.transform;
-                transform.parent.GetComponent<Animation>().Play("Idle_2");
-                //animation.Play("Idle_2");
-                gameObject.GetComponent<Rigidbody>().useGravity = false;
+                transform.parent.parent = other.gameObject.transform;
+                animator.Play("Idle_2",0,0f);
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == release)
             {
-                gameObject.GetComponent<RigBuilder>().enabled = false;
-                transform.parent = null;
-                transform.parent.GetComponent<Animation>().Play("Idle_1");
-                //animation.Play("Idle_1");
-                gameObject.GetComponent<Rigidbody>().useGravity = true;
+                Vector3 temp = transform.position;
+                transform.parent.parent = _chickenParentHolder;
+                transform.position = temp;
+                animator.Play("Idle_1",0,0f);
+                gameObject.GetComponent<RigBuilder>().enabled = true;
             }
         }
-        else if(gameObject.name != "ArmatureChicken")
+
+        // below for all other objects 
+
+        else if (gameObject.name != "ArmatureChicken")
         {
             if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == pointer)
             {
@@ -110,7 +107,7 @@ public class ArInteraction : MonoBehaviour
             {
                 //Do Something
                 //ManomotionManager.Instance.Hand_infos[0].hand_info.tracking_info.poi.
-                GetComponent<Animation>().Play();
+
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == pinch)
             {
@@ -135,9 +132,8 @@ public class ArInteraction : MonoBehaviour
     {
         if (gameObject.name == "ArmatureChicken")
         {
-            gameObject.GetComponent<RigBuilder>().enabled = false;
-            transform.parent.GetComponent<Animation>().Play("Idle_1");
-            //animation.Play("Idle_1");
+            gameObject.GetComponent<RigBuilder>().enabled = true;
+            animator.Play("Idle_1");
         }
     }
 }
