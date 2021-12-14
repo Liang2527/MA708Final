@@ -166,6 +166,8 @@ public class InputManagerArFoundation : InputManagerBaseClass
 
     #endregion
 
+    private bool temp1 = false;
+
     #region Update
 
     private void LateUpdate()
@@ -178,9 +180,15 @@ public class InputManagerArFoundation : InputManagerBaseClass
     /// </summary>
     new private void UpdateFrame()
     {
+        
         if (arCameraBackground.material == null)
         {
-            Debug.LogError("arCameraBackground.material is NULL!");
+            if(temp1 == false)
+            {
+                Debug.LogError("arCameraBackground.material is NULL!");
+                temp1 = true;
+            }
+
             return;
         }
 

@@ -10,13 +10,16 @@ public class ARFocusCircle : MonoBehaviour
     //public GameObject scanText;
     //public GameObject placeText;
 
+    [SerializeField] GameObject FishController;
+
     int objIndex;
 
     public GameObject[] virtual_objects;
     public GameObject[] buttons;
-    public Camera arCam;
+    public GameObject arCam;
     public GameObject placementIndicator;
     public GameObject planetObject;
+    public GameObject hideUIButton;
 
     private ARSessionOrigin arOrigin;
     private ARRaycastManager raycastManager;
@@ -30,7 +33,6 @@ public class ARFocusCircle : MonoBehaviour
 
     void Start()
     {
-        arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
         arOrigin = FindObjectOfType<ARSessionOrigin>();
         raycastManager = FindObjectOfType<ARRaycastManager>();
     }
@@ -51,6 +53,25 @@ public class ARFocusCircle : MonoBehaviour
         //{
         //    PlaceObject();
         //}
+    }
+
+    public void displayHideUIButton()
+    {
+        if (hideUIButton.activeSelf == false)
+            hideUIButton.SetActive(true);
+        else
+            hideUIButton.SetActive(false);
+    }
+
+    public void HideFish()
+    {
+        if (FishController.activeSelf == true)
+            FishController.SetActive(false);
+        if (FishController.activeSelf == false)
+        {
+            FishController.SetActive(true);
+            HideUI();
+        }
     }
 
     public void HideUI() {
@@ -75,13 +96,23 @@ public class ARFocusCircle : MonoBehaviour
                 button.gameObject.SetActive(true);
             }
 
+            arCam.GetComponent<AROcclusionManager>().enabled = true;
             placementIndicatorEnabled = true;
             placementIndicator.SetActive(true);
-
+            
             isUIHidden = false;
 
         }
     }
+
+    public void hideAllObjects()
+    {
+        for (int i = 0; i < virtual_objects.Length; i++)
+        {
+            virtual_objects[i].SetActive(false);
+        }
+    }
+
 
     public void PlaceObject() {
 
