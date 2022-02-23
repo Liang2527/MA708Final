@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CNC0WKWEJ",
         "name": "com.liangmafinal",
-        "processId": 17091,
+        "processId": 1595,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,115 +11,61 @@
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 31406,
+            "processId": 19373,
             "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 14992,
+            "processId": 26892,
             "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 25150,
+            "processId": 7494,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CNC0WKWEJ",
+            "name": "tv.danmaku.bili",
+            "processId": 2265,
             "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 29532,
+            "processId": 17049,
             "exited": true
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 2962,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 10411,
+            "processId": 20039,
             "exited": false
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 19645,
+            "processId": 31404,
             "exited": false
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 360,
+            "processId": 11748,
             "exited": false
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 14156,
+            "processId": 23811,
             "exited": false
         },
         {
             "deviceId": "R5CNC0WKWEJ",
             "name": "com.liangmafinal",
-            "processId": 18951,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 22501,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 24208,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 26937,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 4384,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 6530,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 14695,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 19059,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 22027,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CNC0WKWEJ",
-            "name": "com.liangmafinal",
-            "processId": 17091,
+            "processId": 1595,
             "exited": false
         },
         {

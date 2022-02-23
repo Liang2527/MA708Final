@@ -47,12 +47,6 @@ public class ARFocusCircle : MonoBehaviour
                 UpdatePlacementIndicator();
             }
         }
-
-
-        //if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        //{
-        //    PlaceObject();
-        //}
     }
 
     public void displayHideUIButton()
@@ -134,7 +128,12 @@ public class ARFocusCircle : MonoBehaviour
     public void showPlanet()
     {
         if (!planetObject.activeSelf)
+        {
             planetObject.SetActive(true);
+            planetObject.transform.position = arCam.transform.position + arCam.transform.forward * 1;
+        }
+            
+            
             
         else if (planetObject.activeSelf)
             planetObject.SetActive(false);
