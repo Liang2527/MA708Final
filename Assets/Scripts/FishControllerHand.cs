@@ -16,8 +16,10 @@ public class FishControllerHand : MonoBehaviour
     [SerializeField] GameObject camera;
     [SerializeField] GameObject fishController;
     [SerializeField] Transform targetObject;
+    [SerializeField] GameObject ARPlaneSetupManager;
 
     private bool _updateLimiter;
+    bool isHidden;
 
     private void Start()
     {
@@ -71,17 +73,33 @@ public class FishControllerHand : MonoBehaviour
 
     public void Hide()
     {
-        if (fishController.activeSelf == true)
+        if (fishController.activeSelf)
         {
-            fishController.SetActive(false);
-            fishController.GetComponent<FishFlockController2>().OnDestroy();
-        }
-            
-        if (fishController.activeSelf == false)
+            fishController.GetComponent<FishFlockController2>().fishesCount = 0;
+            StartCoroutine("resetFishesCount", 0.1f);
+            Debug.Log("isHiddent");
+        }    
+        else if (!fishController.activeSelf)
         {
-            fishController.SetActive(true);
+            fishController.GetComponent<FishFlockController2>().fishesCount = 100;
+            StartCoroutine("resetFishesCount", 0.1f);
             camera.GetComponent<AROcclusionManager>().enabled = false;
+            Debug.Log("isNOTHiddent");
         }
     }
 
+    private IEnumerator resetFishesCount(float delay)
+    {
+        if (fishController.activeSelf)
+        {
+            yield return new WaitForSeconds(delay);
+            fishController.SetActive(false);
+        }
+        else if (!fishController.activeSelf)
+        {
+            yield return new WaitForSeconds(delay);
+            ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
+            fishController.SetActive(true);
+        }
+    }
 }

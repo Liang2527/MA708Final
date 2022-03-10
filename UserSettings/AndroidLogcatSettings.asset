@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "R5CNC0WKWEJ",
+    "m_SelectedDeviceId": "R5CT11EKBQK",
     "m_SelectedPackage": {
-        "deviceId": "R5CNC0WKWEJ",
+        "deviceId": "R5CT11EKBQK",
         "name": "com.liangmafinal",
-        "processId": 1595,
+        "processId": 6238,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,30 @@
             "deviceId": "c8786281",
             "name": "com.liangmafinal",
             "processId": 24021,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 27586,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 7872,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 12733,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 6238,
             "exited": false
         }
     ],
