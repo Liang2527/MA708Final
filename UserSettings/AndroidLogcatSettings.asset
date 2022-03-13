@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT11EKBQK",
         "name": "com.liangmafinal",
-        "processId": 16830,
+        "processId": 16293,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -108,6 +108,12 @@
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
             "processId": 16830,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 16293,
             "exited": false
         }
     ],
