@@ -42,16 +42,16 @@ public class ArObjectMovement : MonoBehaviour
                 {
                     if (gameObject.name == "ChickenHolder")
                         animationObject.GetComponent<Animator>().Play("Walk", 0, 0f);
-                    if(gameObject.name == "PigHolder")
+                    else if (gameObject.name == "PigHolder")
                         animationObject.GetComponent<Animator>().Play("Walk", 0, 0f);
                     isMoving = true;
                 }
             }
-            if(distance > 1.95f && distance < 2f)
+            else if(distance > 1.95f && distance < 2f)
             {
                 if (gameObject.name == "ChickenHolder")
                     animationObject.GetComponent<Animator>().Play("Idle_1", 0, 0f);
-                if (gameObject.name == "PigHolder")
+                else if (gameObject.name == "PigHolder")
                     animationObject.GetComponent<Animator>().Play("Idle", 0, 0f);
                 isMoving = false;
             }

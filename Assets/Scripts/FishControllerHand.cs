@@ -18,8 +18,19 @@ public class FishControllerHand : MonoBehaviour
     [SerializeField] Transform targetObject;
     [SerializeField] GameObject ARPlaneSetupManager;
 
-    private bool _updateLimiter;
+    [Tooltip("Minumum acceleration value to keep it non-zero and non-negative.")]
+    public float minAccelValue = 5.0f;
+    [Tooltip("Minumum speed value to keep it non-zero and non-negative.")]
+    public float minSpeedValue = 0.01f;
+    [Tooltip("Minumum turn speed value to keep it non-zero and non-negative.")]
+    public float minTurnSpeedValue = 2;
+    [Tooltip("The value to sum or subtract from the fish's acceleration, speed and turn speed.")]
+    public float valueToAffect = 0.5f;
+
+    private bool _updateLimiter = true;
     bool isHidden;
+    bool _isclicked;
+    bool _grabLimiter;
 
     private void Start()
     {
@@ -37,30 +48,43 @@ public class FishControllerHand : MonoBehaviour
         {
             if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == click)
             {
-                transform.position = camera.transform.position + camera.transform.forward * 20 + camera.transform.up * 20;
-                fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().groupAreaSpeed * 2;
+                if(!_isclicked)
+                {
+                    _isclicked = true;
+                    fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 2;
+                }
+                else if (_isclicked)
+                {
+                    _isclicked = false;
+                    fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 0.6f;
+                }
+
+                Debug.Log("@Script: " + this.name.ToString() + " >> clicked");
                 _updateLimiter = false;
-                StartCoroutine("resetUpdateLimiter", 1.0);
+                StartCoroutine("resetUpdateLimiter", 0.5f);
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == grab)
             {
-                transform.position = targetObject.transform.position;
-                fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().groupAreaDepth / 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaHeight = fishController.GetComponent<FishFlockController2>().groupAreaHeight / 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaWidth = fishController.GetComponent<FishFlockController2>().groupAreaWidth / 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().groupAreaSpeed * 2;
-                _updateLimiter = false;
-                StartCoroutine("resetUpdateLimiter", 1.0);
+                if (!_grabLimiter)
+                {
+                    transform.position = targetObject.transform.position;
+                    fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.5f;
+                
+                    Debug.Log("@Script: " + this.name.ToString() + " >> grab");
+                    _updateLimiter = false;
+                    StartCoroutine("resetUpdateLimiter", 0.5f);
+                    _grabLimiter = true;
+                }
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == release)
             {
                 transform.position = targetObject.transform.position;
-                fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().groupAreaDepth * 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaHeight = fishController.GetComponent<FishFlockController2>().groupAreaHeight * 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaWidth = fishController.GetComponent<FishFlockController2>().groupAreaWidth * 2;
-                fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().groupAreaSpeed / 2;
+                fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
+
+                Debug.Log("@Script: " + this.name.ToString() + " >> release");
                 _updateLimiter = false;
-                StartCoroutine("resetUpdateLimiter", 1.0);
+                _grabLimiter = false;
+                StartCoroutine("resetUpdateLimiter", 0.5f);
             }
         }
     }
@@ -100,6 +124,7 @@ public class FishControllerHand : MonoBehaviour
             yield return new WaitForSeconds(delay);
             ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
             fishController.SetActive(true);
+            _updateLimiter = true;
         }
     }
 }

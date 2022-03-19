@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT11EKBQK",
         "name": "com.liangmafinal",
-        "processId": 16293,
+        "processId": 6333,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -77,43 +77,43 @@
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 27586,
+            "processId": 12993,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 16040,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 9207,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 3731,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "tv.danmaku.bili",
+            "processId": 10841,
             "exited": false
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 7872,
-            "exited": false
+            "processId": 24507,
+            "exited": true
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 12733,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "com.liangmafinal",
-            "processId": 6238,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "com.liangmafinal",
-            "processId": 11772,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "com.liangmafinal",
-            "processId": 16830,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "com.liangmafinal",
-            "processId": 16293,
+            "processId": 6333,
             "exited": false
         }
     ],

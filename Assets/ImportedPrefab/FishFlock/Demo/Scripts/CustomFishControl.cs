@@ -21,7 +21,7 @@ public class CustomFishControl : MonoBehaviour
         // Register the callback update function on the controller.
         controller.OnUpdateFishEvent += OnUpdateFish;
         // Start the coroutine that bounces the value.
-        StartCoroutine(InAndOut());
+        //StartCoroutine(InAndOut());
     }
 
     void OnDisable()
