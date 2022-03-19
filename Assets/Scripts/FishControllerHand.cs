@@ -18,15 +18,6 @@ public class FishControllerHand : MonoBehaviour
     [SerializeField] Transform targetObject;
     [SerializeField] GameObject ARPlaneSetupManager;
 
-    [Tooltip("Minumum acceleration value to keep it non-zero and non-negative.")]
-    public float minAccelValue = 5.0f;
-    [Tooltip("Minumum speed value to keep it non-zero and non-negative.")]
-    public float minSpeedValue = 0.01f;
-    [Tooltip("Minumum turn speed value to keep it non-zero and non-negative.")]
-    public float minTurnSpeedValue = 2;
-    [Tooltip("The value to sum or subtract from the fish's acceleration, speed and turn speed.")]
-    public float valueToAffect = 0.5f;
-
     private bool _updateLimiter = true;
     bool isHidden;
     bool _isclicked;
