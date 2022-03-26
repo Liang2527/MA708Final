@@ -96,7 +96,7 @@ public class FishControllerHand : MonoBehaviour
         }    
         else if (!fishController.activeSelf)
         {
-            fishController.GetComponent<FishFlockController2>().fishesCount = 100;
+            fishController.GetComponent<FishFlockController2>().fishesCount = 125;
             StartCoroutine("resetFishesCount", 0.1f);
             camera.GetComponent<AROcclusionManager>().enabled = false;
             Debug.Log("isNOTHiddent");
