@@ -7,14 +7,15 @@ using UnityEngine.XR.ARFoundation;
 public class FishControllerHand : MonoBehaviour
 {
     ManoGestureContinuous grab;
-    //ManoGestureContinuous pinch;
+    ManoGestureContinuous pinch;
     ManoGestureTrigger click;
     ManoGestureTrigger release;
     //ManoGestureContinuous pointer;
-    //ManoGestureTrigger drop;
+    ManoGestureTrigger drop;
 
     [SerializeField] GameObject camera;
     [SerializeField] GameObject fishController;
+    [SerializeField] GameObject fishController2;
     [SerializeField] Transform targetObject;
     [SerializeField] GameObject ARPlaneSetupManager;
 
@@ -26,11 +27,11 @@ public class FishControllerHand : MonoBehaviour
     private void Start()
     {
         grab = ManoGestureContinuous.CLOSED_HAND_GESTURE;
-        //pinch = ManoGestureContinuous.HOLD_GESTURE;
+        pinch = ManoGestureContinuous.HOLD_GESTURE;
         click = ManoGestureTrigger.CLICK;
         release = ManoGestureTrigger.RELEASE_GESTURE;
         //pointer = ManoGestureContinuous.POINTER_GESTURE;
-        //drop = ManoGestureTrigger.DROP;
+        drop = ManoGestureTrigger.DROP;
     }
 
     private void Update()
@@ -42,12 +43,14 @@ public class FishControllerHand : MonoBehaviour
                 if(!_isclicked)
                 {
                     _isclicked = true;
-                    fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 2;
+                    //fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 2;
+                    if (fishController2.GetComponent<FishFlockController2>().fishesCount == 0)
+                        fishController2.GetComponent<FishFlockController2>().fishesCount = 50;
                 }
                 else if (_isclicked)
                 {
                     _isclicked = false;
-                    fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 0.6f;
+                    //fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 0.6f;
                 }
 
                 Debug.Log("@Script: " + this.name.ToString() + " >> clicked");
@@ -59,8 +62,9 @@ public class FishControllerHand : MonoBehaviour
                 if (!_grabLimiter)
                 {
                     transform.position = targetObject.transform.position;
-                    fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.5f;
-                
+                    fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
+                    fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
+
                     Debug.Log("@Script: " + this.name.ToString() + " >> grab");
                     _updateLimiter = false;
                     StartCoroutine("resetUpdateLimiter", 0.5f);
@@ -71,6 +75,7 @@ public class FishControllerHand : MonoBehaviour
             {
                 transform.position = targetObject.transform.position;
                 fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
+                fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
 
                 Debug.Log("@Script: " + this.name.ToString() + " >> release");
                 _updateLimiter = false;
@@ -91,12 +96,14 @@ public class FishControllerHand : MonoBehaviour
         if (fishController.activeSelf)
         {
             fishController.GetComponent<FishFlockController2>().fishesCount = 0;
+            fishController2.GetComponent<FishFlockController2>().fishesCount = 0;
             StartCoroutine("resetFishesCount", 0.1f);
             Debug.Log("isHiddent");
         }    
         else if (!fishController.activeSelf)
         {
-            fishController.GetComponent<FishFlockController2>().fishesCount = 125;
+            fishController.GetComponent<FishFlockController2>().fishesCount = 100;
+            fishController2.GetComponent<FishFlockController2>().fishesCount = 0;
             StartCoroutine("resetFishesCount", 0.1f);
             camera.GetComponent<AROcclusionManager>().enabled = false;
             Debug.Log("isNOTHiddent");
@@ -109,12 +116,14 @@ public class FishControllerHand : MonoBehaviour
         {
             yield return new WaitForSeconds(delay);
             fishController.SetActive(false);
+            fishController2.SetActive(false);
         }
         else if (!fishController.activeSelf)
         {
             yield return new WaitForSeconds(delay);
             ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
             fishController.SetActive(true);
+            fishController2.SetActive(true);
             _updateLimiter = true;
         }
     }

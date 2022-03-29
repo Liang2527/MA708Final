@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R5CT11EKBQK",
     "m_SelectedPackage": {
-        "deviceId": "R5CT11EKBQK",
-        "name": "com.liangmafinal",
-        "processId": 31215,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -77,43 +77,37 @@
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 16040,
+            "processId": 22745,
             "exited": true
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 9207,
+            "processId": 15746,
             "exited": true
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 3731,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "tv.danmaku.bili",
-            "processId": 10841,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CT11EKBQK",
-            "name": "com.liangmafinal",
-            "processId": 24507,
+            "processId": 5080,
             "exited": true
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 6333,
+            "processId": 26822,
             "exited": true
         },
         {
             "deviceId": "R5CT11EKBQK",
             "name": "com.liangmafinal",
-            "processId": 31215,
+            "processId": 30411,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.sec.android.app.launcher",
+            "processId": 8508,
             "exited": false
         }
     ],
