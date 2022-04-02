@@ -47,7 +47,7 @@ public class ArObjectMovement : MonoBehaviour
                     isMoving = true;
                 }
             }
-            else if(distance > 1.95f && distance < 2f)
+            else if(distance > 1.99f && distance < 2f)
             {
                 if (gameObject.name == "ChickenHolder")
                     animationObject.GetComponent<Animator>().Play("Idle_1", 0, 0f);

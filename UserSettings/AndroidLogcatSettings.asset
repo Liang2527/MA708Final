@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R5CT11EKBQK",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R5CT11EKBQK",
+        "name": "com.liangmafinal",
+        "processId": 6489,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -108,6 +108,12 @@
             "deviceId": "R5CT11EKBQK",
             "name": "com.sec.android.app.launcher",
             "processId": 8508,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT11EKBQK",
+            "name": "com.liangmafinal",
+            "processId": 6489,
             "exited": false
         }
     ],

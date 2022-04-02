@@ -20,6 +20,7 @@ public class ARFocusCircle : MonoBehaviour
     public GameObject placementIndicator;
     public GameObject planetObject;
     public GameObject hideUIButton;
+    public GameObject ARPlaneSetupManager;
 
     private ARSessionOrigin arOrigin;
     private ARRaycastManager raycastManager;
@@ -123,6 +124,7 @@ public class ARFocusCircle : MonoBehaviour
         virtual_objects[objIndex].SetActive(true);
         virtual_objects[objIndex].transform.position = placementPose.position;
         virtual_objects[objIndex].transform.rotation = placementPose.rotation;
+        ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
     }
 
     public void showPlanet()
@@ -131,10 +133,7 @@ public class ARFocusCircle : MonoBehaviour
         {
             planetObject.SetActive(true);
             planetObject.transform.position = arCam.transform.position + arCam.transform.forward * 1;
-        }
-            
-            
-            
+        } 
         else if (planetObject.activeSelf)
             planetObject.SetActive(false);
     }

@@ -23,6 +23,7 @@ public class FishControllerHand : MonoBehaviour
     bool isHidden;
     bool _isclicked;
     bool _grabLimiter;
+    bool _pinchLimiter;
 
     private void Start()
     {
@@ -43,19 +44,41 @@ public class FishControllerHand : MonoBehaviour
                 if(!_isclicked)
                 {
                     _isclicked = true;
-                    //fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 2;
                     if (fishController2.GetComponent<FishFlockController2>().fishesCount == 0)
                         fishController2.GetComponent<FishFlockController2>().fishesCount = 50;
                 }
                 else if (_isclicked)
                 {
                     _isclicked = false;
-                    //fishController.GetComponent<FishFlockController2>().groupAreaDepth = fishController.GetComponent<FishFlockController2>().speedVariation = 0.6f;
                 }
 
                 Debug.Log("@Script: " + this.name.ToString() + " >> clicked");
                 _updateLimiter = false;
                 StartCoroutine("resetUpdateLimiter", 0.5f);
+            }
+            else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == pinch)
+            {
+                if (!_pinchLimiter)
+                {
+                    targetObject.parent.position = camera.transform.forward*25;
+                    fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
+                    fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
+
+                    Debug.Log("@Script: " + this.name.ToString() + " >> pinch");
+                    _updateLimiter = false;
+                    StartCoroutine("resetUpdateLimiter", 0.5f);
+                    _pinchLimiter = true;
+                }
+            }
+            else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == drop)
+            {
+                 fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
+                 fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
+
+                 Debug.Log("@Script: " + this.name.ToString() + " >> drop");
+                 _updateLimiter = false;
+                 StartCoroutine("resetUpdateLimiter", 0.5f);
+                 _pinchLimiter = false;
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_continuous == grab)
             {
