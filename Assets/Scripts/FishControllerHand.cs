@@ -60,7 +60,7 @@ public class FishControllerHand : MonoBehaviour
             {
                 if (!_pinchLimiter)
                 {
-                    targetObject.parent.position = camera.transform.forward*25;
+                    targetObject.parent.position = camera.transform.forward*17;
                     fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
                     fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
 
@@ -84,7 +84,7 @@ public class FishControllerHand : MonoBehaviour
             {
                 if (!_grabLimiter)
                 {
-                    transform.position = targetObject.transform.position;
+                    targetObject.parent.position = camera.transform.position;
                     fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
                     fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 1.8f;
 
@@ -96,7 +96,6 @@ public class FishControllerHand : MonoBehaviour
             }
             else if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == release)
             {
-                transform.position = targetObject.transform.position;
                 fishController.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
                 fishController2.GetComponent<FishFlockController2>().groupAreaSpeed = fishController.GetComponent<FishFlockController2>().neighbourDistance = 10f;
 
