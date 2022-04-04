@@ -43,7 +43,6 @@ public class ArInteraction : MonoBehaviour
 
         _chickenParentHolder = chickenParent.parent.transform;
         _pigParentHolder = pigParent.parent.transform;
-
     }
 
     private void Update()

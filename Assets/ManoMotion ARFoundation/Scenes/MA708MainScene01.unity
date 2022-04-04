@@ -368,10 +368,10 @@ RectTransform:
   m_Father: {fileID: 224256492058736026}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -635.3, y: 235.6}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50.3, y: 419.51}
+  m_SizeDelta: {x: 54.6794, y: 54.6794}
   m_Pivot: {x: 0.5, y: 7.280743}
 --- !u!114 &124153179
 MonoBehaviour:
@@ -1216,34 +1216,6 @@ MonoBehaviour:
   m_EnvironmentTextureFilterMode: 2
   m_EnvironmentTextureHDR: 1
   m_DebugPrefab: {fileID: 0}
---- !u!21 &227577240
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Smkgames/Menu/SimpleGrabPassBlur
-  m_Shader: {fileID: 4800000, guid: 83a256425dae224428cb03ca7dad0c71, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Distortion: 10
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &240203387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,7 +2612,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
+        transform: {fileID: 1509354416}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -2663,9 +2635,9 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 0, z: 0}
-    m_MinLimit: 0
-    m_MaxLimit: 45
+    m_Offset: {x: 0, y: 0, z: 5}
+    m_MinLimit: -15
+    m_MaxLimit: 15
     m_AimAxis: 4
     m_UpAxis: 2
     m_WorldUpType: 0
@@ -4794,6 +4766,34 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!21 &1590211299
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Smkgames/Menu/SimpleGrabPassBlur
+  m_Shader: {fileID: 4800000, guid: 83a256425dae224428cb03ca7dad0c71, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Distortion: 10
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1635793352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,7 +4909,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
+        transform: {fileID: 1509354416}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -5075,7 +5075,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
+        transform: {fileID: 1509354416}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -5098,8 +5098,8 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 0, z: 0}
-    m_MinLimit: 0
+    m_Offset: {x: 0, y: 0, z: 5}
+    m_MinLimit: -30
     m_MaxLimit: 30
     m_AimAxis: 4
     m_UpAxis: 2
@@ -5769,7 +5769,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
+        transform: {fileID: 1509354416}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -5792,8 +5792,8 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 30, z: 0}
-    m_MinLimit: 0
+    m_Offset: {x: 0, y: 20, z: 0}
+    m_MinLimit: -10
     m_MaxLimit: 10
     m_AimAxis: 4
     m_UpAxis: 2
@@ -26695,7 +26695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 227577240}
+  m_Material: {fileID: 1590211299}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -36424,8 +36424,8 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
-        weight: 0.8
+        transform: {fileID: 1509354416}
+        weight: 1
       m_Item1:
         transform: {fileID: 0}
         weight: 0
@@ -36447,8 +36447,8 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 45, z: 0}
-    m_MinLimit: -45
+    m_Offset: {x: 0, y: 45, z: -8}
+    m_MinLimit: 0
     m_MaxLimit: 45
     m_AimAxis: 1
     m_UpAxis: 2
@@ -36511,8 +36511,8 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 635196982}
-        weight: 0.5
+        transform: {fileID: 1509354416}
+        weight: 0.7
       m_Item1:
         transform: {fileID: 0}
         weight: 0
@@ -36534,9 +36534,9 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 0, z: 0}
-    m_MinLimit: -30
-    m_MaxLimit: 30
+    m_Offset: {x: 0, y: 0, z: 8}
+    m_MinLimit: 0
+    m_MaxLimit: 10
     m_AimAxis: 1
     m_UpAxis: 2
     m_WorldUpType: 0
@@ -40996,12 +40996,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thank you for using my AR app. Please keep in mind that this app requires
-    camera and storage permission to function properly.
-
-
-    Please tap "Allow"
-    during the pop-up window. '
+  m_text: "Thank you for using my AR app. Please keep in mind that this app requires
+    camera and storage permission to function properly.\n\n!!! Please tap \"Allow\"
+    when the request pop-out. \n\n-To see all the features, please tap the \"Menu\"
+    button.\n-To restart the app, please tap the \"restart\" button."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41086,7 +41084,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000068665, y: 14.89}
+  m_AnchoredPosition: {x: 0.0000080071, y: 32.54}
   m_SizeDelta: {x: 299.7, y: 208.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &8907605108278919536
@@ -41908,7 +41906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 142}
+  m_AnchoredPosition: {x: 0, y: 157.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &8907605109211346788
