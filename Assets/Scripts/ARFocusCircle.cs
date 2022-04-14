@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
 
 //[RequireComponent(typeof(ARRaycastManager))]
@@ -121,10 +122,25 @@ public class ARFocusCircle : MonoBehaviour
             }
         }
 
-        virtual_objects[objIndex].SetActive(true);
-        virtual_objects[objIndex].transform.position = placementPose.position;
-        virtual_objects[objIndex].transform.rotation = placementPose.rotation;
-        ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
+        if(virtual_objects[objIndex].name == "Room01")
+        {
+            arCam.GetComponent<AROcclusionManager>().requestedEnvironmentDepthMode = EnvironmentDepthMode.Disabled;
+            virtual_objects[objIndex].SetActive(true);
+            virtual_objects[objIndex].transform.position = placementPose.position;
+            virtual_objects[objIndex].transform.rotation = placementPose.rotation;
+            ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
+        }
+        else
+        {
+
+            Debug.Log("@Script: " + this.GetType().Name.ToString() + " >> @function: [PlaceObject] >> Log: []" + virtual_objects[objIndex].name.ToString());
+            arCam.GetComponent<AROcclusionManager>().requestedEnvironmentDepthMode = EnvironmentDepthMode.Best;
+            virtual_objects[objIndex].SetActive(true);
+            virtual_objects[objIndex].transform.position = placementPose.position;
+            virtual_objects[objIndex].transform.rotation = placementPose.rotation;
+            ARPlaneSetupManager.GetComponent<PlaneSetupManager>().SetOcclusionMaterial();
+        }
+
     }
 
     public void showPlanet()
