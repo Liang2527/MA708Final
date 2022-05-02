@@ -1,3 +1,3 @@
 # MA708Final
- Final Project for MA708
- Unity Mobile with ARFoundation
+ This is my Final Thesis Production for my M.A. Class at LIU Brooklyn
+ :)
